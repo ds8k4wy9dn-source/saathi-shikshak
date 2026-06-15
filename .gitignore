@@ -1,0 +1,93 @@
+# ─── Python ───────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# ─── Environment / Secrets ────────────────────────────────────────
+.env
+.env.local
+.env.development
+.env.staging
+.env.production
+.env.test
+
+!.env.example
+
+# ─── Node.js / pnpm ───────────────────────────────────────────────
+node_modules/
+.pnpm-debug.log*
+pnpm-debug.log*
+
+dist/
+dist-ssr/
+.output/
+*.local
+
+# ─── ChromaDB ─────────────────────────────────────────────────────
+backend/data/chroma/
+
+# ─── Large source files ───────────────────────────────────────────
+knowledge-base/raw/*.pdf
+knowledge-base/processed/
+
+# ─── macOS ────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+Icon?
+
+# ─── VSCode ───────────────────────────────────────────────────────
+.vscode/*.code-snippets
+
+# ─── TypeScript ───────────────────────────────────────────────────
+*.tsbuildinfo
+
+# ─── Logs ─────────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# ─── SQLite (if used locally) ─────────────────────────────────────
+*.db
+*.sqlite3
+
+# ─── Firebase ─────────────────────────────────────────────────────
+*serviceAccountKey*.json
+*service-account*.json
+firebase-debug.log

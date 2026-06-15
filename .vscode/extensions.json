@@ -1,0 +1,22 @@
+{
+  "recommendations": [
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-python.black-formatter",
+    "charliermarsh.ruff",
+    "dsznajder.es7-react-js-snippets",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "bradlc.vscode-tailwindcss",
+    "eamodio.gitlens",
+    "humao.rest-client",
+    "mikestead.dotenv",
+    "christian-kohler.path-intellisense",
+    "usernamehw.errorlens",
+    "mhutchie.git-graph",
+    "lokalise.i18n-ally",
+    "ckolkman.vscode-postgres",
+    "PKief.material-icon-theme",
+    "yzhang.markdown-all-in-one"
+  ]
+}
