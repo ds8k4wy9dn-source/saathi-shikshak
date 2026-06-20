@@ -49,9 +49,6 @@ dist-ssr/
 .output/
 *.local
 
-# ─── ChromaDB ─────────────────────────────────────────────────────
-backend/data/chroma/
-
 # ─── Large source files ───────────────────────────────────────────
 knowledge-base/raw/*.pdf
 knowledge-base/processed/
