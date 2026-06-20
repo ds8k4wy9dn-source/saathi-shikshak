@@ -1,5 +1,4 @@
 from pydantic_settings import BaseSettings, SettingsConfigDict
-import os
 
 class Settings(BaseSettings):
     model_config = SettingsConfigDict(
@@ -9,8 +8,9 @@ class Settings(BaseSettings):
         extra="ignore",
     )
 
-    # Anthropic
-    ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
+    # Anthropic — Kept in UPPERCASE so that settings.ANTHROPIC_API_KEY 
+    # references in other files never fracture.
+    ANTHROPIC_API_KEY: str | None = None
 
     # PostgreSQL
     database_url: str = "postgresql+asyncpg://localhost/saathi_shikshak_dev"
@@ -45,6 +45,5 @@ class Settings(BaseSettings):
     @property
     def allowed_origins_list(self) -> list[str]:
         return [o.strip() for o in self.allowed_origins.split(",") if o.strip()]
-
 
 settings = Settings()
