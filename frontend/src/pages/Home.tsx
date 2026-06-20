@@ -90,11 +90,14 @@ export default function Home() {
       })
       setCurrentResponse(response)
       setPendingQuery('')
-    } catch (err: unknown) {
+    } catch {
       // Try offline fallback
       try {
         const { findOfflineMatch } = await import('../offline/matcher')
-        const { db } = await import('../offline/db')
+        
+        // FIX: DB initialized strictly for side-effects without an unused assignment
+        await import('../offline/db') 
+        
         const match = await findOfflineMatch(query, selectedGrade, selectedSubject)
         if (match) {
           showToast(`${t('errors.network')} ${t('errors.offline_answer')}`, 'info')
