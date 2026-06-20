@@ -1,0 +1,41 @@
+{
+  "id": "ma_002_hi",
+  "category": "mixed_ability",
+  "grade_band": "Preparatory (3-5)",
+  "subject": "general",
+  "language": "hi",
+  "title": "multi-grade teaching — Class 3 और 4 एक साथ",
+  "query_text": "multi-grade teaching — Class 3 और 4 एक साथ",
+  "response": {
+    "session_id": "7904265b-6975-48bb-9f31-0a8fc0d729d7",
+    "language": "hi",
+    "immediate_steps": {
+      "title": "तत्काल सलाह / Immediate Action",
+      "steps": [
+        "कक्षा को दो समूहों में बाँटें — कक्षा 3 और कक्षा 4 अलग-अलग बैठें, लेकिन एक ही कमरे में।",
+        "जब आप कक्षा 4 को पढ़ा रहे हों, तब कक्षा 3 को एक स्वतंत्र कार्य दें — जैसे तुकबंदी वाले शब्द ढूँढना या चित्र देखकर वाक्य लिखना।",
+        "हर 10-12 मिनट में समूह बदलें — इससे दोनों कक्षाओं को आपका ध्यान मिलेगा।"
+      ]
+    },
+    "classroom_activity": {
+      "title": "कक्षा गतिविधि / Classroom Activity",
+      "activity": "एक साझा विषय चुनें जो दोनों कक्षाओं में हो — जैसे 'जानवरों के पैर' (कक्षा 3 की पहेली) या 'हमारा देश' (कक्षा 3-4 दोनों में)। पहले पूरी कक्षा को एक साथ विषय पर बातचीत करवाएँ। फिर कक्षा 3 को सरल काम दें — जैसे 3 जानवरों के नाम और उनके पैरों की संख्या लिखना। कक्षा 4 को थोड़ा गहरा काम दें — जैसे एक छोटा संवाद लिखना कि अगर जानवर बात कर सकते तो क्या कहते। दोनों समूह अंत में अपना काम एक-दूसरे को सुनाएँ।",
+      "materials": "श्यामपट्ट, चॉक, NCERT की पाठ्यपुस्तकें, कागज़",
+      "time_required": "20 मिनट"
+    },
+    "inclusion_strategy": {
+      "title": "समावेश रणनीति / Inclusion Strategy",
+      "strategy": "जो बच्चे कमज़ोर हैं उन्हें 'सहायक' की भूमिका दें — कक्षा 4 का एक होशियार बच्चा कक्षा 3 के एक कमज़ोर बच्चे की मदद करे। इससे दोनों को फ़ायदा होता है — यह TaRL की 'peer learning' पद्धति पर आधारित है।"
+    },
+    "reflection_prompt": {
+      "title": "चिंतन / Reflection",
+      "question": "आज जब आप एक समूह के साथ थे, तब दूसरा समूह कितना स्वतंत्र रूप से काम कर पाया? अगली बार उन्हें और स्वतंत्र बनाने के लिए क्या दे सकते हैं?"
+    },
+    "source_citation": {
+      "title": "संदर्भ / Source",
+      "reference": "NEP 2020 — Section 4.6 (Multigrade Teaching); TaRL Methodology — Pratham (Peer Learning & Group-based differentiated instruction); NCERT Class 3 & 4 Hindi 'Veena' — पाठ्यपुस्तक गतिविधियाँ"
+    },
+    "response_time_ms": 19959,
+    "from_cache": false
+  }
+}

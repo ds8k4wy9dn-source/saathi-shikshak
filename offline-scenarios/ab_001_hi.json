@@ -1,0 +1,41 @@
+{
+  "id": "ab_001_hi",
+  "category": "admin_burden",
+  "grade_band": "Preparatory (3-5)",
+  "subject": "general",
+  "language": "hi",
+  "title": "paperwork इतना है कि पढ़ाने का समय नहीं मिलता",
+  "query_text": "paperwork इतना है कि पढ़ाने का समय नहीं मिलता",
+  "response": {
+    "session_id": "1d94814c-f1f8-49c8-9e4f-356e16975187",
+    "language": "hi",
+    "immediate_steps": {
+      "title": "तत्काल सलाह",
+      "steps": [
+        "सप्ताह में एक बार 'paperwork का दिन' तय करें — जैसे शुक्रवार की आखिरी घड़ी — ताकि बाकी दिन पढ़ाई पर फोकस रहे",
+        "जो रजिस्टर रोज़ भरने होते हैं, उन्हें कक्षा के अंत में 5 मिनट में ही निपटाएँ — अलग से समय न लगाएँ",
+        "बच्चों को छोटे-छोटे ज़िम्मेदारी वाले काम दें जैसे उपस्थिति गिनना — इससे आपका थोड़ा समय बचेगा और बच्चों में ज़िम्मेदारी की भावना भी आएगी"
+      ]
+    },
+    "classroom_activity": {
+      "title": "कक्षा गतिविधि — 'जोड़ी में पढ़ो'",
+      "activity": "जब आप किसी ज़रूरी काम में व्यस्त हों, तब बच्चों को जोड़ियों में बाँटें। एक बच्चा पाठ्यपुस्तक से कोई अनुच्छेद पढ़े, दूसरा सुने और फिर एक सवाल पूछे। यह TaRL की 'peer learning' तकनीक है — बच्चे एक-दूसरे से सीखते हैं और कक्षा अनुशासित रहती है।",
+      "materials": "केवल NCERT पाठ्यपुस्तक",
+      "time_required": "15 मिनट"
+    },
+    "inclusion_strategy": {
+      "title": "समावेश रणनीति",
+      "strategy": "जो बच्चे कमज़ोर हैं, उन्हें किसी मज़बूत बच्चे के साथ जोड़ें — 'दोस्त-शिक्षक' की तरह। इससे कमज़ोर बच्चे को अतिरिक्त सहायता मिलती है और आपको हर बच्चे पर अलग से ध्यान देने की ज़रूरत कम होती है।"
+    },
+    "reflection_prompt": {
+      "title": "चिंतन",
+      "question": "इस हफ्ते कौन-सा एक paperwork का काम था जो किसी और समय या तरीके से हो सकता था — ताकि पढ़ाने का एक भी पीरियड न जाता?"
+    },
+    "source_citation": {
+      "title": "संदर्भ",
+      "reference": "TaRL (Teaching at the Right Level) — Peer Learning methodology, Pratham/J-PAL India; NEP 2020, Section 5.4 — Teacher workload and professional time management"
+    },
+    "response_time_ms": 17913,
+    "from_cache": false
+  }
+}

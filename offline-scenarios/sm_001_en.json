@@ -1,0 +1,41 @@
+{
+  "id": "sm_001_en",
+  "category": "student_motivation",
+  "grade_band": "Middle (6-8)",
+  "subject": "general",
+  "language": "en",
+  "title": "A previously good student has become withdrawn and disengaged",
+  "query_text": "A previously good student has become withdrawn and disengaged",
+  "response": {
+    "session_id": "72f17586-9480-407a-a110-9b8812a394fe",
+    "language": "en",
+    "immediate_steps": {
+      "title": "Immediate Action",
+      "steps": [
+        "Find a quiet, private moment — before class or during break — to gently check in: 'I've noticed you seem a little quiet lately. Everything okay?' Keep it casual, not formal.",
+        "Assign this student a small, meaningful classroom role (distributing books, leading a group) — responsibility often rebuilds connection and confidence.",
+        "Quietly inform the school counsellor or head teacher if withdrawal continues beyond 1–2 weeks, especially if you notice changes in attendance or hygiene."
+      ]
+    },
+    "classroom_activity": {
+      "title": "Classroom Activity — 'My Voice Matters' Journal",
+      "activity": "Give every student a half-page of paper. Ask them to write OR draw: 'One thing that made me happy this week' and 'One thing that felt hard.' Collect anonymously. This normalises sharing feelings and helps you identify struggling students without singling anyone out.",
+      "materials": "Half-sheets of paper, pencil — nothing else needed",
+      "time_required": "10 minutes"
+    },
+    "inclusion_strategy": {
+      "title": "Inclusion Strategy",
+      "strategy": "Pair this student with a trusted, kind peer for group tasks — not the highest achiever, but someone warm. Peer connection is often the bridge back to engagement. Avoid cold-calling this student publicly until they show signs of re-engagement."
+    },
+    "reflection_prompt": {
+      "title": "Reflection",
+      "question": "After your quiet check-in with this student, ask yourself: Did I listen more than I spoke? Sometimes a child just needs to feel seen — not fixed."
+    },
+    "source_citation": {
+      "title": "Source",
+      "reference": "NEP 2020, Section 4.6 — Holistic Development and Student Well-being; NISHTHA Module on Social-Emotional Learning in Indian Classrooms"
+    },
+    "response_time_ms": 12176,
+    "from_cache": false
+  }
+}

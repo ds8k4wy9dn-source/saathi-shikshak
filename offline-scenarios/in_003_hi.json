@@ -1,0 +1,41 @@
+{
+  "id": "in_003_hi",
+  "category": "inclusion_cwsn",
+  "grade_band": "Preparatory (3-5)",
+  "subject": "general",
+  "language": "hi",
+  "title": "intellectual disability वाला बच्चा — बाकी class से बहुत पीछे",
+  "query_text": "intellectual disability वाला बच्चा — बाकी class से बहुत पीछे",
+  "response": {
+    "session_id": "a682e5d4-7c3d-408a-b614-8029a8124e93",
+    "language": "hi",
+    "immediate_steps": {
+      "title": "तत्काल सलाह",
+      "steps": [
+        "उस बच्चे की एक छोटी सी 'ताकत' पहचानें — जैसे चित्र बनाना, गाना, या कोई काम जो वो खुशी से करता है — और उसे कक्षा में दिखाने का मौका दें",
+        "उसके लिए अलग से 'छोटे लक्ष्य' तय करें — जैसे बाकी बच्चे पूरा पाठ पढ़ें, तो यह बच्चा 2-3 शब्द पहचाने — यही उसकी सफलता है",
+        "उसे किसी एक समझदार और दयालु सहपाठी के साथ बिठाएं जो धीरे-धीरे मदद कर सके — इसे 'Peer Buddy' कहते हैं"
+      ]
+    },
+    "classroom_activity": {
+      "title": "कक्षा गतिविधि — चित्र और शब्द जोड़ो",
+      "activity": "NCERT कक्षा 4 की पाठ्यपुस्तक में जो चित्र हैं, उन्हें दिखाकर बच्चे से पूछें — 'यह क्या है?' बच्चा शब्द न बोल पाए तो इशारे से भी जवाब दे सकता है। बाकी बच्चे लिखें, यह बच्चा चित्र के नीचे गोला बनाए या उंगली रखे। धीरे-धीरे एक-एक शब्द पहचानने की कोशिश करें।",
+      "materials": "NCERT की पाठ्यपुस्तक, श्यामपट्ट, चॉक — कुछ और नहीं चाहिए",
+      "time_required": "10-12 मिनट"
+    },
+    "inclusion_strategy": {
+      "title": "समावेश रणनीति",
+      "strategy": "TaRL पद्धति के अनुसार — इस बच्चे का स्तर पहले समझें, फिर उसी स्तर से शुरू करें। अगर वो अक्षर नहीं पहचानता, तो चित्र-से-शब्द जोड़ना पहला कदम है। उसे कभी बाकी बच्चों से तुलना में न रखें — उसकी तुलना सिर्फ उसके कल के प्रदर्शन से करें।"
+    },
+    "reflection_prompt": {
+      "title": "चिंतन",
+      "question": "आज उस बच्चे ने एक भी चीज़ में हाँ में सिर हिलाया या मुस्कुराया — क्या आपने वो पल नोटिस किया?"
+    },
+    "source_citation": {
+      "title": "संदर्भ",
+      "reference": "TaRL (Teaching at the Right Level) — Pratham/J-PAL India; NEP 2020, Section 6.11 — Inclusive Education for Children with Disabilities; NCERT Class-4 Hindi Pedagogical Guidelines on differentiated learning"
+    },
+    "response_time_ms": 20132,
+    "from_cache": false
+  }
+}

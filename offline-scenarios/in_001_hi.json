@@ -1,0 +1,41 @@
+{
+  "id": "in_001_hi",
+  "category": "inclusion_cwsn",
+  "grade_band": "Middle (6-8)",
+  "subject": "science",
+  "language": "hi",
+  "title": "Class 6 Science में hearing impairment वाला बच्चा है",
+  "query_text": "Class 6 Science में hearing impairment वाला बच्चा है",
+  "response": {
+    "session_id": "92b19623-c721-4332-b78a-3e77f74e106f",
+    "language": "hi",
+    "immediate_steps": {
+      "title": "तत्काल सलाह / Immediate Action",
+      "steps": [
+        "बच्चे को हमेशा पहली या दूसरी पंक्ति में बैठाएं — जहाँ से आपका चेहरा और बोर्ड दोनों स्पष्ट दिखें",
+        "जब भी कुछ समझाएं, बोर्ड पर मुख्य शब्द और चित्र ज़रूर लिखें — यह बच्चे की visual learning को सहारा देता है",
+        "बात करते समय बच्चे की तरफ मुँह रखें ताकि वह lip-reading कर सके — पीठ करके न बोलें"
+      ]
+    },
+    "classroom_activity": {
+      "title": "कक्षा गतिविधि / Classroom Activity",
+      "activity": "Science concept को 'चित्र-शब्द कार्ड' से सिखाएं। जो भी topic पढ़ा रहे हों (जैसे पौधों के भाग), बोर्ड पर एक सरल चित्र बनाएं और हर भाग का नाम लिखें। hearing impairment वाले बच्चे को एक 'buddy' साथी दें जो उसे इशारों या लिखकर समझाने में मदद करे। फिर सभी बच्चे अपनी कॉपी में वही चित्र बनाकर नाम लिखें।",
+      "materials": "चॉक, ब्लैकबोर्ड, बच्चों की कॉपी और पेंसिल",
+      "time_required": "15 minutes"
+    },
+    "inclusion_strategy": {
+      "title": "समावेश रणनीति / Inclusion Strategy",
+      "strategy": "Peer Buddy System अपनाएं — एक समझदार और संवेदनशील सहपाठी को इस बच्चे का 'साथी' बनाएं। वह बच्चा निर्देश लिखकर या इशारे से समझाए। साथ ही, हर पाठ के बाद एक छोटी written slip दें जिसमें 2-3 मुख्य बातें लिखी हों — यह बच्चे को घर पर दोहराने में मदद करेगा।"
+    },
+    "reflection_prompt": {
+      "title": "चिंतन / Reflection",
+      "question": "आज की कक्षा में उस बच्चे ने कितनी बार खुद से कुछ लिखा या इशारे से जवाब दिया — क्या वह engaged था?"
+    },
+    "source_citation": {
+      "title": "संदर्भ / Source",
+      "reference": "NEP 2020, Section 6.10-6.11 — Inclusion of Children with Disabilities; RPWD Act 2016 (Inclusive Education); NCERT Pedagogical Guidelines — Visual and Multimodal Learning Strategies"
+    },
+    "response_time_ms": 19420,
+    "from_cache": false
+  }
+}

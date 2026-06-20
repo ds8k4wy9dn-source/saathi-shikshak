@@ -1,0 +1,41 @@
+{
+  "id": "ab_001_en",
+  "category": "admin_burden",
+  "grade_band": "Preparatory (3-5)",
+  "subject": "general",
+  "language": "en",
+  "title": "So much paperwork that there's no time left for actual teaching",
+  "query_text": "So much paperwork that there's no time left for actual teaching",
+  "response": {
+    "session_id": "d3c88122-e7a9-4771-ab82-67867be93594",
+    "language": "en",
+    "immediate_steps": {
+      "title": "Immediate Action",
+      "steps": [
+        "Identify which paperwork tasks repeat weekly — attendance, lesson plans, registers — and batch them into one fixed 20-minute slot per day, ideally before school starts",
+        "Use a single A4 sheet as a weekly 'teaching diary' combining lesson notes + attendance in one place, reducing duplicate writing",
+        "Talk to a trusted colleague about sharing register-filling duties or creating a simple class monitor system where students help with routine record-keeping under your supervision"
+      ]
+    },
+    "classroom_activity": {
+      "title": "Classroom Activity — Student Helper System",
+      "activity": "Assign 4 rotating 'Class Monitors' each week. Each monitor owns one task: attendance marking on the board, distributing notebooks, collecting work, and date/subject writing on the blackboard. You verify in 2 minutes. This reclaims 10–15 minutes of instructional time daily while building student responsibility.",
+      "materials": "Blackboard, chalk, existing class register",
+      "time_required": "5 minutes setup, saves 10–15 minutes daily"
+    },
+    "inclusion_strategy": {
+      "title": "Inclusion Strategy",
+      "strategy": "Give monitor roles first to quieter or struggling students — it builds their confidence and keeps them engaged while you focus on teaching the rest of the class. Rotate roles weekly so no child is excluded."
+    },
+    "reflection_prompt": {
+      "title": "Reflection",
+      "question": "After one week of batching paperwork and using student monitors, did you notice even 10 extra minutes of actual teaching time — and how did students respond to the responsibility?"
+    },
+    "source_citation": {
+      "title": "Source",
+      "reference": "NEP 2020, Section 5.1 — Teacher empowerment and reducing non-teaching burdens; NISHTHA Module — Classroom Management and Student Leadership"
+    },
+    "response_time_ms": 12053,
+    "from_cache": false
+  }
+}

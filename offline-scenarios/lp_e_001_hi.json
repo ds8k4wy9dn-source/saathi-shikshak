@@ -1,0 +1,41 @@
+{
+  "id": "lp_e_001_hi",
+  "category": "lp_evs",
+  "grade_band": "Preparatory (3-5)",
+  "subject": "evs",
+  "language": "hi",
+  "title": "water cycle — Class 4 के बच्चे genuinely कैसे समझें",
+  "query_text": "water cycle — Class 4 के बच्चे genuinely कैसे समझें",
+  "response": {
+    "session_id": "6371e8dc-4135-49a3-a478-52d6e770073e",
+    "language": "hi",
+    "immediate_steps": {
+      "title": "तत्काल सलाह",
+      "steps": [
+        "बच्चों से पूछें — 'बारिश के बाद पोखर कहाँ जाता है?' — उनके अपने अनुभव से शुरू करें",
+        "ब्लैकबोर्ड पर सूरज, बादल, बारिश, नदी के सरल चित्र बनाएँ और बच्चों से तीर खिंचवाएँ",
+        "हर चरण को एक छोटी कहानी की तरह बताएँ — 'पानी की यात्रा' — वाष्पीकरण से वापस बारिश तक"
+      ]
+    },
+    "classroom_activity": {
+      "title": "कक्षा गतिविधि — पानी की यात्रा नाटक",
+      "activity": "बच्चों को 4 समूहों में बाँटें — एक समूह 'पानी की बूँदें', एक 'सूरज', एक 'बादल', एक 'पहाड़/नदी'। हर समूह अपनी भूमिका बोलेगा और हाथ से इशारा करेगा। जैसे — सूरज वाले बच्चे हाथ फैलाकर कहें 'मैं गर्मी दे रहा हूँ', पानी वाले ऊपर उठें 'हम भाप बन रहे हैं', बादल वाले हाथ जोड़ें 'हम बादल बने', फिर नीचे बैठें 'बारिश हो गई'। पूरा चक्र 2-3 बार दोहराएँ।",
+      "materials": "केवल ब्लैकबोर्ड और चॉक — बाकी सब बच्चों के शरीर और आवाज़ से",
+      "time_required": "15 मिनट"
+    },
+    "inclusion_strategy": {
+      "title": "समावेश रणनीति",
+      "strategy": "जो बच्चे कमज़ोर हैं उन्हें 'पानी की बूँद' की भूमिका दें — यह सबसे सरल और केंद्रीय भूमिका है। वे हर चरण में शामिल रहते हैं और पूरा चक्र खुद महसूस करते हैं।"
+    },
+    "reflection_prompt": {
+      "title": "चिंतन",
+      "question": "क्या बच्चे नाटक के बाद खुद शब्दों में बता पाए कि पानी कहाँ-कहाँ गया — बिना किताब देखे?"
+    },
+    "source_citation": {
+      "title": "संदर्भ",
+      "reference": "NEP 2020, Section 4.6 — Experiential Learning: hands-on learning, story-telling-based pedagogy, and arts-integrated education as standard classroom practice; NCERT EVS Pedagogical Guidelines — Class 4, 'Looking Around'"
+    },
+    "response_time_ms": 18688,
+    "from_cache": false
+  }
+}

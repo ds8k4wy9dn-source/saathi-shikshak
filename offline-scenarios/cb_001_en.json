@@ -1,0 +1,41 @@
+{
+  "id": "cb_001_en",
+  "category": "classroom_behaviour",
+  "grade_band": "Preparatory (3-5)",
+  "subject": "general",
+  "language": "en",
+  "title": "Students don't pay attention during lessons",
+  "query_text": "Students don't pay attention during lessons",
+  "response": {
+    "session_id": "a446143f-04c4-43c5-b9f5-8c7bbb09af8c",
+    "language": "en",
+    "immediate_steps": {
+      "title": "Immediate Action",
+      "steps": [
+        "Break your lesson into 10-minute chunks — alternate between teacher talk and a quick student activity so attention resets naturally",
+        "Use a 'call and response' signal (clap a rhythm, students clap it back) to regain focus without raising your voice",
+        "Assign rotating 'helper roles' (board writer, question asker, answer checker) so every student knows they may be called on"
+      ]
+    },
+    "classroom_activity": {
+      "title": "Classroom Activity — 'Think-Pair-Share'",
+      "activity": "After explaining a concept for 5 minutes, pause and pose one clear question (e.g., 'What did we just learn? Tell your neighbour in one sentence.'). Students whisper their answer to the person next to them for 2 minutes, then 3–4 pairs share with the class. This creates low-stakes participation and re-engages wandering minds.",
+      "materials": "None — only the lesson content already being taught",
+      "time_required": "10 minutes"
+    },
+    "inclusion_strategy": {
+      "title": "Inclusion Strategy",
+      "strategy": "For students who struggle to follow verbal instruction, pair them with a peer buddy who quietly re-explains in the child's home language. This peer support keeps struggling learners engaged without singling them out."
+    },
+    "reflection_prompt": {
+      "title": "Reflection",
+      "question": "After trying Think-Pair-Share once, which students surprised you by participating who normally stay silent?"
+    },
+    "source_citation": {
+      "title": "Source",
+      "reference": "NEP 2020, Section 5.4 — active, participatory pedagogy; NCERT Pedagogical Guidelines — collaborative learning strategies for mixed-ability classrooms (Class 3–5)"
+    },
+    "response_time_ms": 10397,
+    "from_cache": false
+  }
+}

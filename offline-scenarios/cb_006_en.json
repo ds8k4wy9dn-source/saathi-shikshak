@@ -1,0 +1,41 @@
+{
+  "id": "cb_006_en",
+  "category": "classroom_behaviour",
+  "grade_band": "Preparatory (3-5)",
+  "subject": "general",
+  "language": "en",
+  "title": "Managing 47 students alone — it becomes chaotic",
+  "query_text": "Managing 47 students alone — it becomes chaotic",
+  "response": {
+    "session_id": "ad82dc94-21da-42b0-8e0b-b75dbed9b47c",
+    "language": "en",
+    "immediate_steps": {
+      "title": "Immediate Action",
+      "steps": [
+        "Divide your 47 students into 5 fixed groups of 9-10. Give each group a name (colours, animals). Groups stay the same every day — this alone reduces chaos significantly.",
+        "Appoint one 'Group Leader' per group. This student is your helper — distributes materials, keeps noise check, reports issues. Rotate leaders weekly so everyone gets a turn.",
+        "Use a simple signal system: one clap from you = freeze and look at you. Practise this signal for 2 minutes at the start of class until it becomes automatic."
+      ]
+    },
+    "classroom_activity": {
+      "title": "Classroom Activity — Group Survey (EVS/General)",
+      "activity": "While you work with one group directly, other groups do a structured peer task: each group surveys their own members — 'What is one thing you like about our class? What is one thing we can improve?' The Group Leader collects answers on a slate or scrap paper. After 10 minutes, one leader from each group shares findings. This keeps all 47 students purposefully engaged without needing your constant attention.",
+      "materials": "Slates, chalk, or any scrap paper already in classroom",
+      "time_required": "15 minutes"
+    },
+    "inclusion_strategy": {
+      "title": "Inclusion Strategy",
+      "strategy": "Place one stronger reader and one quieter or struggling student in each group intentionally. The peer-teaching that naturally happens reduces your load and builds confidence in both students — the one explaining learns more deeply, and the struggling learner feels less exposed."
+    },
+    "reflection_prompt": {
+      "title": "Reflection",
+      "question": "After trying the fixed groups and signal system for one week, which part of your class felt calmer — and what made that possible?"
+    },
+    "source_citation": {
+      "title": "Source",
+      "reference": "TaRL (Teaching at the Right Level) Methodology — Pratham: grouped learning structures for large mixed-ability classrooms; NCERT Class-5 EVS 'Our Wondrous World' — small group discussion and peer survey activity (Activity 6 & 9)"
+    },
+    "response_time_ms": 14594,
+    "from_cache": false
+  }
+}

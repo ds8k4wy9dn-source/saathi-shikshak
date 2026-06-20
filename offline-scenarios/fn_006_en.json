@@ -1,0 +1,41 @@
+{
+  "id": "fn_006_en",
+  "category": "foundational_numeracy",
+  "grade_band": "Preparatory (3-5)",
+  "subject": "mathematics",
+  "language": "en",
+  "title": "Class 3 students can't tell time on an analog clock",
+  "query_text": "Class 3 students can't tell time on an analog clock",
+  "response": {
+    "session_id": "623dc027-9049-43d2-8390-93f1e0223113",
+    "language": "en",
+    "immediate_steps": {
+      "title": "Immediate Action",
+      "steps": [
+        "First check: can students read numbers 1–12? If not, start there before clock work.",
+        "Draw a large clock face on the blackboard — mark only 12, 3, 6, 9 first (the 'anchor numbers').",
+        "Introduce only 'o'clock' times today — add minute hand later once hour hand is confident."
+      ]
+    },
+    "classroom_activity": {
+      "title": "Human Clock Activity",
+      "activity": "Draw a big clock circle on the board. Call one student to be the 'hour hand' (stand at center, arm pointing). Call another to be the 'minute hand' (longer arm). Call out a time like '3 o'clock' — students physically point their arms. Rest of class shows thumbs up/down if correct. Rotate pairs every 2 minutes. This builds body-memory of clock positions before abstract reading.",
+      "materials": "Chalk and blackboard only — no other materials needed",
+      "time_required": "15 minutes"
+    },
+    "inclusion_strategy": {
+      "title": "Inclusion Strategy",
+      "strategy": "For students still struggling, pair them with a peer and give only 3 times to practice (12, 3, 6 o'clock). Gradually add more times across days. Never ask a struggling student to perform alone in front of the class — always in pairs first."
+    },
+    "reflection_prompt": {
+      "title": "Reflection",
+      "question": "After the activity, which time positions did most students still confuse — and what one thing could make tomorrow's practice clearer?"
+    },
+    "source_citation": {
+      "title": "Source",
+      "reference": "NIPUN Bharat Framework — Foundational Numeracy: Concrete-to-Abstract progression; NCERT Math-Magic Grade 3, Chapter on Time; NEP 2020 Section 2.1 — Foundational Literacy and Numeracy as urgent priority"
+    },
+    "response_time_ms": 12749,
+    "from_cache": false
+  }
+}

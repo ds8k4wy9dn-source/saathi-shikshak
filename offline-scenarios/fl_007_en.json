@@ -1,0 +1,41 @@
+{
+  "id": "fl_007_en",
+  "category": "foundational_literacy",
+  "grade_band": "Foundational (1-2)",
+  "subject": "hindi",
+  "language": "en",
+  "title": "Not a single Class 2 student can read fluently",
+  "query_text": "Not a single Class 2 student can read fluently",
+  "response": {
+    "session_id": "d6e85912-b039-4e97-a3be-96bdfa12590f",
+    "language": "en",
+    "immediate_steps": {
+      "title": "Immediate Action",
+      "steps": [
+        "First, assess each child's current level — who knows letters, who can blend syllables, who can read simple words. Group them into 3 levels (letter-recognition, syllable-blending, simple words).",
+        "Teach each group separately for 10–15 minutes using level-appropriate tasks — do not use the same textbook activity for all 40 children.",
+        "Use peer pairing: place a slightly stronger reader with a weaker one for daily 5-minute reading practice."
+      ]
+    },
+    "classroom_activity": {
+      "title": "Classroom Activity — Syllable Clapping Game (मात्रा ताली)",
+      "activity": "Write 5 simple 2-syllable words on the blackboard (e.g., क-म-ल, प-त-ल). Say each word aloud, clapping once per syllable. Ask children to repeat and clap with you. Then point to individual syllables and ask children to say them. Gradually ask volunteers to blend syllables into the full word. Repeat daily with new words.",
+      "materials": "Blackboard and chalk only",
+      "time_required": "10–12 minutes"
+    },
+    "inclusion_strategy": {
+      "title": "Inclusion Strategy",
+      "strategy": "For children who cannot yet recognize letters, use picture-word cards drawn on paper — draw a simple picture (e.g., a fish) and write the word below. Let them trace the letters with their finger while saying the sound aloud. This builds letter-sound connection without pressure."
+    },
+    "reflection_prompt": {
+      "title": "Reflection",
+      "question": "After grouping children by level, which group made the most progress in one week — and what made that activity work for them?"
+    },
+    "source_citation": {
+      "title": "Source",
+      "reference": "NCERT Primary Teacher Manual — learning-level grouping principle; NEP 2020, Section 2.1–2.2 — Foundational Literacy as urgent national priority; TaRL methodology (Pratham) — group by level, not grade"
+    },
+    "response_time_ms": 13261,
+    "from_cache": false
+  }
+}

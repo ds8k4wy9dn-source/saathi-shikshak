@@ -1,0 +1,41 @@
+{
+  "id": "lp_m_001_en",
+  "category": "lp_mathematics",
+  "grade_band": "Preparatory (3-5)",
+  "subject": "mathematics",
+  "language": "en",
+  "title": "Making a Class 4 multiplication lesson concrete and visual",
+  "query_text": "Making a Class 4 multiplication lesson concrete and visual",
+  "response": {
+    "session_id": "a46e3044-502f-4f5f-be3f-3140a42683b7",
+    "language": "en",
+    "immediate_steps": {
+      "title": "Immediate Action",
+      "steps": [
+        "Group students into pairs — one explains, one listens. Peer explanation deepens understanding for both.",
+        "Write one multiplication fact on the board as repeated addition first (e.g., 3×4 = 4+4+4), then show it as an array of dots.",
+        "Use a 'show me' routine — students draw their own dot arrays on slates or scrap paper before you explain."
+      ]
+    },
+    "classroom_activity": {
+      "title": "Classroom Activity — Pebble Arrays",
+      "activity": "Give each pair a small handful of pebbles or seeds (10–20). Call out a multiplication fact like '3×5'. Students arrange pebbles into 3 rows of 5, count total, then rearrange into 5 rows of 3 — discovering the commutative property visually. Pairs share what they notice. Record findings on the board together.",
+      "materials": "Pebbles, seeds, or torn paper bits — anything countable; chalk and slate or scrap paper",
+      "time_required": "15 minutes"
+    },
+    "inclusion_strategy": {
+      "title": "Inclusion Strategy",
+      "strategy": "For students still building addition fluency, let them count each pebble aloud while arranging — this bridges repeated addition to multiplication without skipping their current level. This aligns with TaRL's principle of teaching at the child's actual learning level, not grade level."
+    },
+    "reflection_prompt": {
+      "title": "Reflection",
+      "question": "After the activity, which students could explain WHY 3×5 equals 5×3 — and which could only show it? What might that tell you about their next step?"
+    },
+    "source_citation": {
+      "title": "Source",
+      "reference": "TaRL Methodology (Pratham/J-PAL India) — grouping by learning level, hands-on manipulation; NEP 2020 Section 4.25 — mathematics through puzzles and engaging methods at foundational stage; NIPUN Bharat Framework — concrete-to-abstract progression for numeracy"
+    },
+    "response_time_ms": 13568,
+    "from_cache": false
+  }
+}

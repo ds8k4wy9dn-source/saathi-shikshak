@@ -1,0 +1,242 @@
+/* ─── Google Fonts: Noto Sans Devanagari (Hindi) + Noto Sans (English) ─────── */
+/* Preconnect for faster font loading */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wdth,wght@62.5..100,100..900&family=Noto+Sans:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&display=swap');
+
+/* ─── Tailwind CSS v4 ──────────────────────────────────────────────────────── */
+/* This single line replaces the v3 triple @tailwind directive */
+@import "tailwindcss";
+
+/* ─── SaathiShikshak Design System ─────────────────────────────────────────── */
+/* @theme replaces tailwind.config.js — ALL configuration goes here */
+@theme {
+  /* Font families */
+  --font-devanagari: 'Noto Sans Devanagari', sans-serif;
+  --font-sans: 'Noto Sans', sans-serif;
+
+  /* Brand colours */
+  --color-primary: #1B4F72;        /* Deep Blue — Trust, Government */
+  --color-primary-light: #2E86C1;
+  --color-primary-dark: #154360;
+
+  --color-secondary: #F39C12;      /* Amber — Warmth, Action */
+  --color-secondary-light: #F5B041;
+  --color-secondary-dark: #D68910;
+
+  --color-bg: #F8F9FA;             /* Light Grey — Easy on eyes outdoors */
+  --color-surface: #FFFFFF;
+  --color-success: #27AE60;        /* Green — Positive reinforcement */
+  --color-error: #E74C3C;
+  --color-warning: #F39C12;
+
+  --color-text-primary: #1A1A2E;
+  --color-text-secondary: #6C757D;
+  --color-border: #DEE2E6;
+}
+
+/* ─── Base Styles ──────────────────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  /* Disable tap highlight on mobile (prevents flash on button tap) */
+  -webkit-tap-highlight-color: transparent;
+  font-size: 16px; /* Base: never go below 14sp for readability on low-res screens */
+}
+
+body {
+  font-family: var(--font-devanagari), var(--font-sans), sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  /* Smooth font rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Prevent horizontal scroll on mobile */
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* PWA safe area support (notch/home-indicator on modern phones) */
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+  padding-top: env(safe-area-inset-top, 0px);
+}
+
+/* Minimum touch target size — Material Design: 48×48dp */
+/* This ensures accessibility on mobile devices */
+button,
+a,
+[role="button"],
+input[type="checkbox"],
+input[type="radio"] {
+  min-height: 48px;
+  cursor: pointer;
+}
+
+/* Remove default button styling */
+button {
+  border: none;
+  background: none;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Hindi text optimization */
+:lang(hi) {
+  font-family: var(--font-devanagari), sans-serif;
+  line-height: 1.7; /* Devanagari needs more line height than Latin */
+}
+
+/* Input fields */
+input, textarea, select {
+  font-family: var(--font-devanagari), var(--font-sans), sans-serif;
+  font-size: 16px; /* Prevents iOS auto-zoom on input focus */
+}
+
+/* Focus visible for keyboard accessibility */
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* ─── Keyframe Animations ──────────────────────────────────────────────────── */
+
+@keyframes fade-slide-up {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fade-out {
+  from { opacity: 1; transform: translateY(0); }
+  to   { opacity: 0; transform: translateY(-10px); }
+}
+
+@keyframes scale-in {
+  from { opacity: 0; transform: scale(0.92); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+/* Mic button — idle pulse (invites tapping) */
+@keyframes mic-idle-pulse {
+  0%   { box-shadow: 0 0 0 0   rgba(27, 79, 114, 0.45); }
+  70%  { box-shadow: 0 0 0 22px rgba(27, 79, 114, 0);   }
+  100% { box-shadow: 0 0 0 0   rgba(27, 79, 114, 0);   }
+}
+
+/* Mic button — recording pulse (red, urgent) */
+@keyframes mic-recording-pulse {
+  0%   { box-shadow: 0 0 0 0   rgba(231, 76, 60, 0.65); transform: scale(1);    }
+  50%  { box-shadow: 0 0 0 18px rgba(231, 76, 60, 0);   transform: scale(1.06); }
+  100% { box-shadow: 0 0 0 0   rgba(231, 76, 60, 0);    transform: scale(1);    }
+}
+
+/* Chip select pop */
+@keyframes chip-select {
+  0%   { transform: scale(1);    }
+  40%  { transform: scale(1.12); }
+  100% { transform: scale(1);    }
+}
+
+/* Celebration (used on onboarding completion) */
+@keyframes celebration-bounce {
+  0%, 100% { transform: translateY(0); }
+  30%       { transform: translateY(-14px) rotate(-4deg); }
+  60%       { transform: translateY(-8px)  rotate(4deg);  }
+}
+
+/* Response card entrance (staggered via CSS custom property) */
+@keyframes card-enter {
+  from { opacity: 0; transform: translateY(16px) scale(0.97); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* Shimmer loading skeleton */
+@keyframes shimmer {
+  0%   { background-position: -400px 0; }
+  100% { background-position:  400px 0; }
+}
+
+/* Toast slide-in */
+@keyframes toast-enter {
+  from { opacity: 0; transform: translateY(20px) scale(0.95); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* ─── Utility Classes ──────────────────────────────────────────────────────── */
+
+.page-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.animate-fade-up {
+  animation: fade-slide-up 0.35s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.animate-scale-in {
+  animation: scale-in 0.25s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* Staggered children animation */
+.animate-stagger > * { animation: fade-slide-up 0.3s cubic-bezier(0.22, 1, 0.36, 1) both; }
+.animate-stagger > *:nth-child(1) { animation-delay: 0.05s; }
+.animate-stagger > *:nth-child(2) { animation-delay: 0.10s; }
+.animate-stagger > *:nth-child(3) { animation-delay: 0.15s; }
+.animate-stagger > *:nth-child(4) { animation-delay: 0.20s; }
+.animate-stagger > *:nth-child(5) { animation-delay: 0.25s; }
+.animate-stagger > *:nth-child(6) { animation-delay: 0.30s; }
+
+.animate-mic-idle {
+  animation: mic-idle-pulse 2s ease-out infinite;
+}
+
+.animate-mic-recording {
+  animation: mic-recording-pulse 0.9s ease-in-out infinite;
+}
+
+/* Skeleton loader */
+.skeleton {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e8e8e8 50%, #f0f0f0 75%);
+  background-size: 400px 100%;
+  animation: shimmer 1.4s infinite linear;
+  border-radius: 8px;
+}
+
+/* Card block (response screen) */
+.response-card {
+  border-radius: 16px;
+  background: white;
+  border: 1.5px solid var(--color-border);
+  overflow: hidden;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.response-card:hover {
+  border-color: var(--color-primary-light);
+  box-shadow: 0 4px 20px rgba(27, 79, 114, 0.1);
+}
+
+/* Toast */
+.toast {
+  position: fixed;
+  bottom: max(env(safe-area-inset-bottom, 0px) + 16px, 24px);
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 12px 24px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 600;
+  z-index: 9999;
+  animation: toast-enter 0.3s cubic-bezier(0.22, 1, 0.36, 1) both;
+  max-width: 90vw;
+  text-align: center;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.18);
+}
+.toast-success { background: var(--color-success); color: white; }
+.toast-error   { background: var(--color-error);   color: white; }
+.toast-info    { background: var(--color-primary);  color: white; }

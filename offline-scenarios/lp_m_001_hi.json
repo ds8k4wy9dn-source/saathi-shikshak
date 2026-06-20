@@ -1,0 +1,41 @@
+{
+  "id": "lp_m_001_hi",
+  "category": "lp_mathematics",
+  "grade_band": "Preparatory (3-5)",
+  "subject": "mathematics",
+  "language": "hi",
+  "title": "Class 4 multiplication lesson — concrete और visual कैसे बनाएं",
+  "query_text": "Class 4 multiplication lesson — concrete और visual कैसे बनाएं",
+  "response": {
+    "session_id": "2eaa65b5-048e-428d-b70a-1cc1ad5830a8",
+    "language": "hi",
+    "immediate_steps": {
+      "title": "तत्काल सलाह / Immediate Action",
+      "steps": [
+        "पहले बच्चों से पूछें — 'अगर 3 थैलियों में 4-4 आम हों, तो कुल कितने?' — यह real-life connection बनाता है",
+        "Blackboard पर गुणा को बार-बार जोड़ के रूप में लिखें: 3×4 = 4+4+4 — abstract से पहले concrete समझ ज़रूरी है",
+        "बच्चों को जोड़ियों में बिठाएं — एक बोले, दूसरा कंकड़/बीज से गिनकर verify करे"
+      ]
+    },
+    "classroom_activity": {
+      "title": "कक्षा गतिविधि / Classroom Activity",
+      "activity": "थैली-और-बीज गतिविधि: हर जोड़ी को कागज़ की 5 पट्टियाँ दें जो 'थैली' हैं। बच्चे उन पर कंकड़/बीज रखें — जैसे हर थैली में 3 बीज। फिर सब मिलाकर गिनें। Blackboard पर लिखें: 5 थैलियाँ × 3 बीज = ? बच्चे पहले जोड़कर, फिर गुणा से उत्तर निकालें। दोनों तरीके compare करें।",
+      "materials": "कंकड़ या बीज (बाहर से), कागज़ की पट्टियाँ, chalk, blackboard",
+      "time_required": "15 minutes"
+    },
+    "inclusion_strategy": {
+      "title": "समावेश रणनीति / Inclusion Strategy",
+      "strategy": "जो बच्चे गुणा में पीछे हैं, उन्हें केवल जोड़ वाला हिस्सा करने दें — TaRL methodology के अनुसार बच्चे को उसके स्तर पर काम दें, धीरे-धीरे गुणा की ओर बढ़ाएं। तेज़ बच्चे उन्हें 'साथी शिक्षक' बनकर समझाएं।"
+    },
+    "reflection_prompt": {
+      "title": "चिंतन / Reflection",
+      "question": "क्या आज कक्षा में बच्चों ने गुणा को 'बार-बार जोड़' के रूप में खुद शब्दों में समझाया? अगर नहीं, तो कल किस तरह यह मौका दे सकते हैं?"
+    },
+    "source_citation": {
+      "title": "संदर्भ / Source",
+      "reference": "TaRL (Teaching at the Right Level) — Pratham methodology: concrete-to-abstract progression; NCERT Math-Magic Grade 4, Chapter on Multiplication; NEP 2020 Section 4.25 — गणित में puzzles और games द्वारा foundational thinking को बढ़ावा"
+    },
+    "response_time_ms": 19715,
+    "from_cache": false
+  }
+}

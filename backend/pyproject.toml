@@ -1,0 +1,28 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13.13"
+dependencies = [
+    "anthropic==0.105.2",
+    "asyncpg==0.31.0",
+    "chromadb==1.5.9",
+    "fastapi==0.136.3",
+    "firebase-admin==6.9.0",
+    "google-genai>=2.9.0",
+    "llama-index-core==0.14.22",
+    "llama-index-embeddings-huggingface==0.7.0",
+    "llama-index-llms-anthropic==0.11.5",
+    "llama-index-vector-stores-chroma==0.5.5",
+    "pydantic==2.13.4",
+    "pydantic-settings==2.10.1",
+    "pymupdf==1.25.5",
+    "python-dotenv==1.0.1",
+    "rank-bm25==0.2.2",
+    "redis==6.4.0",
+    "sentence-transformers==3.4.1",
+    "sqlalchemy==2.0.50",
+    "tqdm==4.67.1",
+    "uvicorn[standard]==0.34.3",
+]

@@ -1,0 +1,41 @@
+{
+  "id": "as_001_en",
+  "category": "assessment",
+  "grade_band": "Preparatory (3-5)",
+  "subject": "general",
+  "language": "en",
+  "title": "How to check if all 45 students understood today's lesson",
+  "query_text": "How to check if all 45 students understood today's lesson",
+  "response": {
+    "session_id": "8754fb90-2186-4c45-904d-8cbb5d963fd2",
+    "language": "en",
+    "immediate_steps": {
+      "title": "Immediate Action",
+      "steps": [
+        "Ask all students to show a thumbs up (understood), thumbs sideways (a little confused), or thumbs down (did not understand) — scan the room quickly",
+        "Pick 3–4 students from different ability groups and ask them to explain one key idea from the lesson in their own words",
+        "Write one simple question on the board related to today's lesson and ask every student to write the answer on their slate or a scrap of paper — collect or scan responses in 2 minutes"
+      ]
+    },
+    "classroom_activity": {
+      "title": "Classroom Activity — Exit Slip on Slate",
+      "activity": "In the last 5 minutes of class, write one question on the board (e.g., for Math: '35 Tens = ___ ?' or 'What is 4596 + 104?'). Every student writes the answer on their slate or notebook. Ask students to hold up slates simultaneously. You can see at a glance who got it right, who is unsure, and who needs help. Group students mentally into three: confident, partially understood, need support.",
+      "materials": "Blackboard, chalk, student slates or notebooks",
+      "time_required": "5 minutes"
+    },
+    "inclusion_strategy": {
+      "title": "Inclusion Strategy",
+      "strategy": "For students who show confusion, pair them with a peer who understood well. Ask the peer to explain using an example — this reinforces learning for both. This peer-teaching approach works well in mixed-ability classrooms of 40+ students without requiring extra materials."
+    },
+    "reflection_prompt": {
+      "title": "Reflection",
+      "question": "After the slate activity, which group was largest — confident, partial, or confused — and what does that tell you about tomorrow's starting point?"
+    },
+    "source_citation": {
+      "title": "Source",
+      "reference": "TaRL Methodology (Pratham) — grouping by understanding level; NCERT Class-4 Mathematics Teacher Notes — encouraging students to share reasoning; NEP 2020 Section 4.6 — formative assessment as a regular classroom practice"
+    },
+    "response_time_ms": 13364,
+    "from_cache": false
+  }
+}

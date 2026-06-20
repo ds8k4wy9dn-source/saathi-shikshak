@@ -1,0 +1,41 @@
+{
+  "id": "ma_002_en",
+  "category": "mixed_ability",
+  "grade_band": "Preparatory (3-5)",
+  "subject": "general",
+  "language": "en",
+  "title": "Multi-grade teaching — Class 3 and Class 4 together",
+  "query_text": "Multi-grade teaching — Class 3 and Class 4 together",
+  "response": {
+    "session_id": "91ef19fb-feed-46ac-851e-50164f9969f4",
+    "language": "en",
+    "immediate_steps": {
+      "title": "Immediate Action",
+      "steps": [
+        "Divide students into two home groups — Class 3 on one side, Class 4 on the other. Give each group a different but related task on the same theme (e.g., shapes: Class 3 identifies shapes around them, Class 4 draws and labels them).",
+        "Use 'anchor activities' — give Class 4 an independent written task first, then spend focused 8–10 minutes with Class 3, then switch. This way no group is idle.",
+        "Pair one strong Class 4 student with two Class 3 students as a 'learning buddy' group for practice time — peer learning reduces your load and builds confidence in both."
+      ]
+    },
+    "classroom_activity": {
+      "title": "Classroom Activity — Same Story, Different Tasks",
+      "activity": "Choose one common theme (e.g., 'market'). Class 3 students draw a market scene and label 3 items in their language. Class 4 students write 3 sentences about what they would buy and why. After 12 minutes, one student from each group shares. Both groups hear each other — vocabulary and ideas cross over naturally.",
+      "materials": "Slate or notebook, chalk or pencil — nothing else needed",
+      "time_required": "15 minutes"
+    },
+    "inclusion_strategy": {
+      "title": "Inclusion Strategy",
+      "strategy": "For students who are behind grade level in either class, assign the drawing/labelling task regardless of grade. This gives them a meaningful entry point without singling them out. TaRL methodology suggests grouping by ability for practice tasks — not by grade — so struggling Class 4 students can work alongside Class 3 peers without stigma."
+    },
+    "reflection_prompt": {
+      "title": "Reflection",
+      "question": "After trying the buddy pairing, which Class 4 student surprised you by explaining something clearly — and what does that tell you about how they learn best?"
+    },
+    "source_citation": {
+      "title": "Source",
+      "reference": "NCERT Class 3 & 4 Maths Mela — Preparatory Stage pedagogy (activity-based, peer group learning); TaRL methodology (Pratham) — grouping by level, not grade; NEP 2020, Section 4.6 — flexible, activity-based learning in Preparatory Stage"
+    },
+    "response_time_ms": 14901,
+    "from_cache": false
+  }
+}

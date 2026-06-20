@@ -1,0 +1,41 @@
+{
+  "id": "fl_001_hi",
+  "category": "foundational_literacy",
+  "grade_band": "Foundational (1-2)",
+  "subject": "hindi",
+  "language": "hi",
+  "title": "मेरे Class 2 के बच्चे अभी भी अक्षर नहीं पहचानते। क्या करूं?",
+  "query_text": "मेरे Class 2 के बच्चे अभी भी अक्षर नहीं पहचानते। क्या करूं?",
+  "response": {
+    "session_id": "e57d21f8-29f5-47fb-9491-1a441b09a712",
+    "language": "hi",
+    "immediate_steps": {
+      "title": "तत्काल सलाह",
+      "steps": [
+        "पहले एक छोटा सा जाँच करें — बच्चों को 5-6 अक्षर दिखाएं और देखें कौन पहचानता है, कौन नहीं। इससे समूह बनाने में आसानी होगी।",
+        "बच्चों को उनके स्तर के अनुसार 2-3 छोटे समूहों में बाँटें — जो बिल्कुल नहीं पहचानते, जो कुछ पहचानते हैं, जो पढ़ सकते हैं।",
+        "जो बच्चे पहचानते हैं उन्हें 'साथी शिक्षक' बनाएं — वे कमज़ोर बच्चों के साथ बैठकर मदद करें।"
+      ]
+    },
+    "classroom_activity": {
+      "title": "कक्षा गतिविधि",
+      "activity": "अक्षर-चित्र मिलान खेल: श्यामपट्ट पर 4-5 बड़े अक्षर लिखें (जैसे क, म, ब, प, स)। हर अक्षर के साथ एक परिचित चीज़ का नाम बोलें — 'क से कमल'। फिर बच्चों को ज़मीन पर उंगली से वह अक्षर बनाने को कहें। जो बच्चे बना लें, वे खड़े हों। यह बार-बार दोहराएं — देखना, सुनना, बनाना तीनों एक साथ होते हैं।",
+      "materials": "श्यामपट्ट, चॉक — बस इतना काफी है",
+      "time_required": "15 मिनट"
+    },
+    "inclusion_strategy": {
+      "title": "समावेश रणनीति",
+      "strategy": "जो बच्चे सबसे पीछे हैं, उन्हें पहले सिर्फ 3 अक्षर सिखाएं — एक हफ्ते तक वही। NIPUN Bharat का सुझाव है कि foundational stage में बच्चे को अपनी गति से सीखने का मौका मिले। कम लक्ष्य, ज़्यादा दोहराव — यही काम करता है।"
+    },
+    "reflection_prompt": {
+      "title": "चिंतन",
+      "question": "आज की गतिविधि के बाद — किन बच्चों की आँखों में पहचान की चमक दिखी? उन्हें कल और क्या दे सकती/सकते हैं?"
+    },
+    "source_citation": {
+      "title": "संदर्भ",
+      "reference": "NIPUN Bharat Framework (2021) — Foundational Literacy Goals, Grade 1-2; NCERT Primary Teacher Manual — 'Children should be grouped as per their learning levels'; TaRL Methodology (Pratham) — Level-wise grouping and peer learning"
+    },
+    "response_time_ms": 19136,
+    "from_cache": false
+  }
+}

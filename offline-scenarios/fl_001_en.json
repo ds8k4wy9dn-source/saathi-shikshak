@@ -1,0 +1,41 @@
+{
+  "id": "fl_001_en",
+  "category": "foundational_literacy",
+  "grade_band": "Foundational (1-2)",
+  "subject": "hindi",
+  "language": "en",
+  "title": "My Class 2 students still can't recognize letters. What should I do?",
+  "query_text": "My Class 2 students still can't recognize letters. What should I do?",
+  "response": {
+    "session_id": "313ac595-fa89-42d7-a3d6-d1cd79350655",
+    "language": "en",
+    "immediate_steps": {
+      "title": "Immediate Action",
+      "steps": [
+        "Group students by current level — those who recognize 0 letters, those who know a few. Teach each group differently, not the whole class the same way.",
+        "Start with only 3–4 high-frequency letters (like अ, म, स, र) — repeat them daily through chanting, tracing, and spotting in the classroom.",
+        "Use the classroom wall, textbook pages, or any printed material — ask children to circle or point to a target letter wherever they see it."
+      ]
+    },
+    "classroom_activity": {
+      "title": "Classroom Activity — Letter Hunt",
+      "activity": "Write one target letter (e.g., 'म') large on the blackboard. Say it aloud together 3 times. Then ask children to find that letter on any page of their Hindi textbook and tap it with their finger. Pairs check each other. Then one child from each pair comes and circles it on the board. Repeat with a second letter.",
+      "materials": "Blackboard, chalk, students' existing Hindi textbooks",
+      "time_required": "15 minutes"
+    },
+    "inclusion_strategy": {
+      "title": "Inclusion Strategy",
+      "strategy": "For children who recognize no letters at all, pair them with a slightly stronger peer during the Letter Hunt. The stronger child points and says the letter name — the struggling child repeats and traces it on their slate or palm. This peer-support approach avoids singling anyone out."
+    },
+    "reflection_prompt": {
+      "title": "Reflection",
+      "question": "After trying this for one week, which 2–3 students still could not recognize the target letters — and what do you notice about how they are engaging during the activity?"
+    },
+    "source_citation": {
+      "title": "Source",
+      "reference": "NIPUN Bharat Framework — Foundational Literacy Lakshyas (Balvatika & Grade 1 benchmarks); NCERT Primary Teacher Manual — grouping children by learning level for differentiated instruction"
+    },
+    "response_time_ms": 12027,
+    "from_cache": false
+  }
+}

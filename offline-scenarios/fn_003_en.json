@@ -1,0 +1,41 @@
+{
+  "id": "fn_003_en",
+  "category": "foundational_numeracy",
+  "grade_band": "Preparatory (3-5)",
+  "subject": "mathematics",
+  "language": "en",
+  "title": "Teaching fractions to Class 5 — students are completely lost",
+  "query_text": "Teaching fractions to Class 5 — students are completely lost",
+  "response": {
+    "session_id": "537209a5-4088-4b1c-b52a-56a644992e65",
+    "language": "en",
+    "immediate_steps": {
+      "title": "Immediate Action",
+      "steps": [
+        "Start with physical sharing — ask 'If I have 1 roti and 2 children, how much does each get?' before touching the textbook",
+        "Group students in pairs and have them fold a paper strip into equal parts — folding IS the fraction",
+        "Use local language words alongside English: 'आधा = half = 1/2' written together on the blackboard"
+      ]
+    },
+    "classroom_activity": {
+      "title": "Classroom Activity — Paper Folding Fractions",
+      "activity": "Give each student one strip of paper (torn from notebook). Ask them to fold it into 2 equal parts — shade one part. Write '1/2' on the board and connect it to what they see. Repeat with 4 equal parts (fold twice) — shade 1, then 3 parts. Ask: 'Which is bigger — 1/4 or 3/4?' Let students hold up their strips and compare visually. Then write 3 fractions on the board and ask pairs to arrange them smallest to largest using their strips.",
+      "materials": "One notebook page per student (torn into strips), pencil, blackboard",
+      "time_required": "15 minutes"
+    },
+    "inclusion_strategy": {
+      "title": "Inclusion Strategy",
+      "strategy": "For students who are still struggling, pair them with a peer and ask them only to identify 'how many equal parts total' (denominator concept only). Do not rush to numerator+denominator together — TaRL methodology suggests isolating one concept until it is secure before combining."
+    },
+    "reflection_prompt": {
+      "title": "Reflection",
+      "question": "After the activity, which students could explain WHY 2/4 and 1/2 look the same on their strip — and what does that tell you about where to go next?"
+    },
+    "source_citation": {
+      "title": "Source",
+      "reference": "TaRL (Teaching at the Right Level) Methodology — Pratham/J-PAL India: concept-wise grouping and concrete manipulation before abstraction; NEP 2020 Section 4.14 — bilingual teaching-learning materials to bridge home language and formal concepts; NCERT Math-Magic Grade 4-5 Pedagogical Notes — use of concrete objects before symbolic representation"
+    },
+    "response_time_ms": 15695,
+    "from_cache": false
+  }
+}

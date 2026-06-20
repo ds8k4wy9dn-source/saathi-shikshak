@@ -1,0 +1,41 @@
+{
+  "id": "ma_001_en",
+  "category": "mixed_ability",
+  "grade_band": "Preparatory (3-5)",
+  "subject": "general",
+  "language": "en",
+  "title": "Some students are very advanced, others far behind — in the same class",
+  "query_text": "Some students are very advanced, others far behind — in the same class",
+  "response": {
+    "session_id": "a0f7b12b-33d3-49c7-ba05-8dcb097e0b1d",
+    "language": "en",
+    "immediate_steps": {
+      "title": "Immediate Action",
+      "steps": [
+        "Group students into 3 mixed-ability clusters of ~13 each — seat them together permanently for peer support",
+        "Prepare 3 versions of the same task: one with pictures/fewer steps (beginners), one standard, one with an extension challenge — same topic, different depth",
+        "Assign 'Learning Buddies' — one stronger student paired with one struggling student within each group, rotating monthly"
+      ]
+    },
+    "classroom_activity": {
+      "title": "Classroom Activity — 'Same Question, My Way'",
+      "activity": "Write one open question on the board (e.g., 'How many ways can you make 20?'). Beginners use fingers/tally marks and write 2–3 ways. Mid-level students write 5+ ways using addition/subtraction. Advanced students find patterns and write a rule. All share answers — class sees that everyone contributed something valid. No one feels left out.",
+      "materials": "Blackboard, chalk, notebooks, pencils — nothing else needed",
+      "time_required": "15 minutes"
+    },
+    "inclusion_strategy": {
+      "title": "Inclusion Strategy",
+      "strategy": "Use TaRL grouping: briefly assess where each child actually is (not their grade level) using a simple oral or written task. Then teach struggling students foundational concepts in a small group for 10 minutes while advanced students work independently on extension tasks. Rotate your attention — you are not ignoring anyone."
+    },
+    "reflection_prompt": {
+      "title": "Reflection",
+      "question": "After trying mixed-ability grouping this week, which student surprised you — either by helping others more than expected, or by understanding something you thought they couldn't?"
+    },
+    "source_citation": {
+      "title": "Source",
+      "reference": "TaRL (Teaching at the Right Level) Methodology — Pratham/J-PAL India; NEP 2020 Section 4.6 — Equitable and Inclusive Education; NCERT Pedagogical Guidelines on differentiated instruction"
+    },
+    "response_time_ms": 13507,
+    "from_cache": false
+  }
+}

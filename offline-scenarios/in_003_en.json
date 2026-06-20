@@ -1,0 +1,41 @@
+{
+  "id": "in_003_en",
+  "category": "inclusion_cwsn",
+  "grade_band": "Preparatory (3-5)",
+  "subject": "general",
+  "language": "en",
+  "title": "Student with intellectual disability — much slower than classmates",
+  "query_text": "Student with intellectual disability — much slower than classmates",
+  "response": {
+    "session_id": "3b5ccd64-7ef9-43c7-acb5-1181362081ad",
+    "language": "en",
+    "immediate_steps": {
+      "title": "Immediate Action",
+      "steps": [
+        "Seat the student near you or a patient peer — proximity reduces anxiety and allows quiet check-ins without singling them out",
+        "Break every task into one small step at a time; give the next step only after the first is done — this prevents overwhelm",
+        "Use a simple visual cue (a drawn tick or star on their page) to signal 'you did it' — immediate positive feedback builds confidence"
+      ]
+    },
+    "classroom_activity": {
+      "title": "Classroom Activity — Touch & Tell",
+      "activity": "While the class works on a reading or writing task, give this student a small object (stone, eraser, leaf). Ask them to describe it using 3 words — shape, size, feel. They can whisper to you or a buddy. This mirrors the NCERT Class 4 'Let us Speak' tactile activity and keeps them meaningfully engaged at their own level without isolation.",
+      "materials": "Any small classroom object — eraser, stone, chalk piece, leaf",
+      "time_required": "10 minutes"
+    },
+    "inclusion_strategy": {
+      "title": "Inclusion Strategy",
+      "strategy": "Use a 'buddy pair' system — pair this student with a calm, kind classmate for structured tasks. The buddy does not teach; they simply work alongside. This reduces the student's isolation and builds belonging. Assign the buddy a rotating role so it feels like a classroom honour, not a burden."
+    },
+    "reflection_prompt": {
+      "title": "Reflection",
+      "question": "After today's class, did this student complete at least one task fully — however small? If yes, that is a real learning moment worth building on tomorrow."
+    },
+    "source_citation": {
+      "title": "Source",
+      "reference": "NEP 2020, Section 7.5(d) — cooperation across schools for education of children with disabilities; NCERT Class 4 English 'Santoor' — tactile learning activity (Let us Do, p.64); NISHTHA Module — Inclusive Education practices"
+    },
+    "response_time_ms": 12846,
+    "from_cache": false
+  }
+}

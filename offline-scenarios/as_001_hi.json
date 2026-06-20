@@ -1,0 +1,41 @@
+{
+  "id": "as_001_hi",
+  "category": "assessment",
+  "grade_band": "Preparatory (3-5)",
+  "subject": "general",
+  "language": "hi",
+  "title": "आज का lesson सभी 45 बच्चों ने समझा या नहीं — कैसे जानें",
+  "query_text": "आज का lesson सभी 45 बच्चों ने समझा या नहीं — कैसे जानें",
+  "response": {
+    "session_id": "b35c2f67-81f1-4bc4-b18b-179dec000876",
+    "language": "hi",
+    "immediate_steps": {
+      "title": "तत्काल सलाह / Immediate Action",
+      "steps": [
+        "पाठ के अंत में 2 मिनट के लिए बच्चों से एक सरल सवाल पूछें जो आज के मुख्य विचार पर हो — जैसे 'आज हमने क्या सीखा, एक बात बताओ'",
+        "बच्चों को तीन समूहों में बाँटें — जो समझे (अँगूठा ऊपर), जो थोड़ा समझे (हाथ हिलाएँ), जो नहीं समझे (अँगूठा नीचे) — यह 'Thumb Signal' तकनीक है",
+        "जो बच्चे नहीं समझे उनके नाम नोट करें और अगले दिन उन्हें छोटे समूह में दोबारा समझाएँ"
+      ]
+    },
+    "classroom_activity": {
+      "title": "कक्षा गतिविधि / Classroom Activity",
+      "activity": "Exit Slip बिना कागज के: पाठ खत्म होने से पहले हर बच्चे से कहें — 'स्लेट पर या हवा में एक शब्द लिखो जो आज तुमने सीखा।' फिर 4-5 बच्चों को बोलने का मौका दें। जो बच्चा कुछ नहीं बोल पाता, उसे एक सरल संकेत दें जैसे 'कहानी में कौन था?' — इससे आपको तुरंत पता चलेगा कि समझ कहाँ रुकी है।",
+      "materials": "स्लेट, चॉक — या केवल मौखिक रूप से भी हो सकता है",
+      "time_required": "5 मिनट"
+    },
+    "inclusion_strategy": {
+      "title": "समावेश रणनीति / Inclusion Strategy",
+      "strategy": "जो बच्चे बोलने में झिझकते हैं, उन्हें जोड़ी में बिठाएँ — एक समझने वाला बच्चा दूसरे को एक वाक्य में बताए। इससे कमज़ोर बच्चे बिना शर्म के सीखते हैं और आपको भी अंदाज़ा मिलता है।"
+    },
+    "reflection_prompt": {
+      "title": "चिंतन / Reflection",
+      "question": "कल जब आपने Thumb Signal लिया, तो जिन बच्चों ने 'नहीं समझा' दिखाया — क्या उनमें कोई एक जैसी कठिनाई थी?"
+    },
+    "source_citation": {
+      "title": "संदर्भ / Source",
+      "reference": "TaRL (Teaching at the Right Level) Methodology — Pratham; NIPUN Bharat Framework — Formative Assessment Strategies; Bloom's Taxonomy — Comprehension Check at Knowledge & Understanding Level"
+    },
+    "response_time_ms": 19714,
+    "from_cache": false
+  }
+}

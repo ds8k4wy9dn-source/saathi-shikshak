@@ -1,0 +1,41 @@
+{
+  "id": "in_001_en",
+  "category": "inclusion_cwsn",
+  "grade_band": "Middle (6-8)",
+  "subject": "science",
+  "language": "en",
+  "title": "Student with hearing impairment in my Class 6 Science class",
+  "query_text": "Student with hearing impairment in my Class 6 Science class",
+  "response": {
+    "session_id": "2ae19026-aae2-4dcf-832d-bd6d91eed1cb",
+    "language": "en",
+    "immediate_steps": {
+      "title": "Immediate Action",
+      "steps": [
+        "Seat the student in the front row, slightly to the side where they can see your face and lips clearly during explanation",
+        "Use the blackboard more than usual — write key science terms, steps, and diagrams visually for every concept you teach orally",
+        "Make eye contact with this student when speaking and avoid turning your back to the class while explaining"
+      ]
+    },
+    "classroom_activity": {
+      "title": "Classroom Activity — Visual Science Vocabulary Cards",
+      "activity": "For any new science topic (e.g., parts of a cell, food chain), write each key term on the blackboard with a simple hand-drawn diagram beside it. Ask ALL students to copy these into a personal 'Science Word Book' — a few pages folded together. The hearing-impaired student uses this as their reference. Pair them with a buddy who can tap their shoulder gently to signal transitions or instructions.",
+      "materials": "Blackboard, chalk, notebooks, pencil — nothing extra needed",
+      "time_required": "10 minutes per new topic introduction"
+    },
+    "inclusion_strategy": {
+      "title": "Inclusion Strategy",
+      "strategy": "Use a 'show-don't-tell' approach: demonstrate every experiment or process physically before explaining verbally. Assign a consistent peer buddy who sits beside the student and uses simple gestures or written notes to relay instructions. This benefits all visual learners in the class too."
+    },
+    "reflection_prompt": {
+      "title": "Reflection",
+      "question": "After today's class, did the student appear to follow the lesson at the same pace as others — and what one visual support made the biggest difference?"
+    },
+    "source_citation": {
+      "title": "Source",
+      "reference": "NEP 2020, Section 6.11 — Inclusion of children with disabilities; assistive and language-appropriate teaching-learning materials; peer support strategies aligned with NCERT inclusive education guidelines"
+    },
+    "response_time_ms": 12123,
+    "from_cache": false
+  }
+}

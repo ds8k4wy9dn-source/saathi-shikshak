@@ -1,0 +1,41 @@
+{
+  "id": "pe_001_en",
+  "category": "parent_engagement",
+  "grade_band": "Preparatory (3-5)",
+  "subject": "general",
+  "language": "en",
+  "title": "Parents don't send children regularly — chronic absenteeism",
+  "query_text": "Parents don't send children regularly — chronic absenteeism",
+  "response": {
+    "session_id": "21ffff8d-4b72-4e16-87a0-4087932717d8",
+    "language": "en",
+    "immediate_steps": {
+      "title": "Immediate Action",
+      "steps": [
+        "Start a simple attendance chart on the blackboard — let students mark their own presence with a tally. This builds ownership and peer awareness.",
+        "Identify 3–5 chronically absent students. Speak privately with a trusted peer from their neighbourhood — ask them to walk to school together.",
+        "Send a short, friendly note home (written in local language) celebrating the child's contribution in class — not about absence, but about belonging."
+      ]
+    },
+    "classroom_activity": {
+      "title": "Classroom Activity — 'My School Story' Wall",
+      "activity": "Give each student a small piece of paper. Ask them to draw or write one thing they enjoy about school. Pin all responses on a 'Our Class Wall' section of the blackboard. When absent students return, show them — 'We missed your story here.' This builds emotional connection to school.",
+      "materials": "Scrap paper, chalk, blackboard — nothing extra needed",
+      "time_required": "15 minutes"
+    },
+    "inclusion_strategy": {
+      "title": "Inclusion Strategy",
+      "strategy": "For students who miss lessons frequently, assign a 'buddy' who shares notes and catches them up in 5 minutes before class starts. This reduces the fear of falling behind — which itself is a hidden reason children stop coming."
+    },
+    "reflection_prompt": {
+      "title": "Reflection",
+      "question": "After trying the buddy system for two weeks, which students showed improved attendance — and what did their buddies do differently that seemed to help?"
+    },
+    "source_citation": {
+      "title": "Source",
+      "reference": "NEP 2020, Section 6.4–6.5 — Equitable and Inclusive Education: peer tutoring, counsellor/social worker engagement, and community-based strategies for improving attendance among SEDGs"
+    },
+    "response_time_ms": 10907,
+    "from_cache": false
+  }
+}

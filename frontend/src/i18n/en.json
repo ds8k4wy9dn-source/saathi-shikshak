@@ -1,0 +1,131 @@
+{
+  "app": {
+    "name": "SaathiShikshak",
+    "tagline": "An answer to every question. Every day. In your language."
+  },
+  "language_select": {
+    "greeting": "Hello! 👋",
+    "welcome": "Welcome to SaathiShikshak",
+    "choose": "Choose your language",
+    "change_later": "You can change the language anytime"
+  },
+  "auth": {
+    "title": "Enter your number",
+    "subtitle": "We'll verify you with a one-time code",
+    "phone_label": "Mobile number",
+    "phone_placeholder": "+91 XXXXX XXXXX",
+    "send_otp": "Send OTP",
+    "sending": "Sending...",
+    "otp_label": "Enter OTP",
+    "otp_hint": "6-digit code sent to your number",
+    "verify": "Verify",
+    "verifying": "Verifying...",
+    "resend": "Resend OTP",
+    "resend_in": "Resend in {{seconds}}s",
+    "error_invalid": "Wrong OTP. Please try again.",
+    "error_expired": "OTP expired. Request a new one.",
+    "error_many": "Too many attempts. Please wait.",
+    "error_invalid_phone": "Please enter a valid mobile number",
+    "error_recaptcha": "Security check failed. Refresh the page and try again.",
+    "error_network": "Connection issue. Please try again.",
+    "error_generic": "Something went wrong. Please try again in a moment."
+  },
+  "onboarding": {
+    "step1_title": "Which classes do you teach?",
+    "step1_subtitle": "Select one or more",
+    "step2_title": "Which subjects do you teach?",
+    "step2_subtitle": "Select one or more",
+    "grade_prefix": "Class",
+    "next": "Next →",
+    "finish": "Let's start! 🚀",
+    "select_at_least_one": "Please select at least one!",
+    "subjects": {
+      "hindi": "🔤 Hindi",
+      "mathematics": "🔢 Mathematics",
+      "evs": "🌿 EVS",
+      "science": "🔬 Science",
+      "english": "🌐 English",
+      "general": "📚 General"
+    },
+    "welcome_message": "Your information is safe with us."
+  },
+  "home": {
+    "greeting_morning": "Good morning",
+    "greeting_afternoon": "Hello",
+    "greeting_evening": "Good evening",
+    "teacher_suffix": "",
+    "challenge_prompt": "What's today's challenge?",
+    "mic_idle": "🎤 Tap mic and speak",
+    "mic_listening": "🔴 Listening...",
+    "mic_processing": "💭 Processing...",
+    "text_placeholder": "Or type here...",
+    "grade_label": "Class",
+    "subject_label": "Subject",
+    "ask_button": "Get Advice →",
+    "asking": "Asking...",
+    "recent_title": "Recent",
+    "no_recent": "No questions asked yet",
+    "history_link": "See all →",
+    "offline_badge": "📴 Offline",
+    "offline_msg": "No internet. Showing pre-computed answers.",
+    "rate_limit": "⏰ Daily limit reached (30). Back tomorrow!",
+    "subjects": {
+      "hindi": "Hindi",
+      "mathematics": "Maths",
+      "evs": "EVS",
+      "science": "Science",
+      "english": "English",
+      "general": "General"
+    }
+  },
+  "response": {
+    "header": "📋 Today's Advice",
+    "from_cache_badge": "⚡ Instant answer",
+    "blocks": {
+      "immediate": "⚡ Immediate Action",
+      "activity": "🎯 Classroom Activity",
+      "inclusion": "🤝 Inclusion Strategy",
+      "reflection": "💭 Reflection",
+      "source": "📖 Source"
+    },
+    "materials_label": "Materials",
+    "time_label": "Time",
+    "expand_hint": "▼ Tap to expand",
+    "collapse_hint": "▲ Collapse",
+    "feedback_question": "Was this helpful?",
+    "feedback_yes": "👍 Very helpful!",
+    "feedback_no": "👎 Needs improvement",
+    "feedback_thanks": "🙏 Thank you for your feedback!",
+    "ask_again": "← Ask another",
+    "response_time": "Response in {{ms}}ms"
+  },
+  "history": {
+    "title": "My History",
+    "empty_title": "No questions yet",
+    "empty_sub": "Tap 'Get Advice' on the home screen to start",
+    "grade_prefix": "Class",
+    "helpful": "✅ Helpful",
+    "not_helpful": "💬 Feedback given",
+    "no_feedback": "",
+    "back": "← Back"
+  },
+  "errors": {
+    "network": "📶 Connection issue.",
+    "offline_answer": "Showing offline answer.",
+    "server": "🔧 Service busy. Try in a minute.",
+    "empty_query": "🎤 Please ask something first!",
+    "voice_unsupported": "🔇 Voice not supported. Open in Chrome.",
+    "voice_denied": "🎤 Microphone permission needed. Enable in Settings.",
+    "voice_no_speech": "🤔 Nothing heard. Please try again.",
+    "generic": "😅 Something went wrong. Try again."
+  },
+  "common": {
+    "loading": "Loading...",
+    "thinking": "✨ Thinking...",
+    "retry": "Try again",
+    "close": "✕",
+    "back": "← Back",
+    "history": "📋 History",
+    "logout": "Log out"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "sm_001_hi",
+  "category": "student_motivation",
+  "grade_band": "Middle (6-8)",
+  "subject": "general",
+  "language": "hi",
+  "title": "पहले अच्छा बच्चा था — अब withdrawn और disengaged हो गया",
+  "query_text": "पहले अच्छा बच्चा था — अब withdrawn और disengaged हो गया",
+  "response": {
+    "session_id": "1ad95d86-2b82-4ec6-86f0-b876fed36377",
+    "language": "hi",
+    "immediate_steps": {
+      "title": "तत्काल सलाह / Immediate Action",
+      "steps": [
+        "उस बच्चे के पास जाकर धीरे से पूछें — 'सब ठीक है?' — बिना पूरी कक्षा के सामने, अकेले में।",
+        "उसे कोई छोटी-सी जिम्मेदारी दें जो वो पहले पसंद करता था — जैसे किताबें बाँटना या बोर्ड पोंछना — ताकि वो जुड़ाव महसूस करे।",
+        "अगले 5-7 दिन उसके व्यवहार को चुपचाप नोट करें — कब ज़्यादा चुप है, कब थोड़ा खुलता है — इससे पैटर्न समझ आएगा।"
+      ]
+    },
+    "classroom_activity": {
+      "title": "कक्षा गतिविधि / Classroom Activity",
+      "activity": "एक 'भावना-चक्र' गतिविधि करें। कागज़ पर एक गोला बनाएँ और उसमें 4-6 भाव लिखें — खुश, उदास, डरा हुआ, अकेला, थका हुआ, उत्साहित। सभी बच्चों से कहें — 'आज तुम कैसा महसूस कर रहे हो? उस भाव पर निशान लगाओ।' यह गतिविधि पूरी कक्षा के लिए है, इसलिए वह बच्चा अकेला नहीं लगेगा। उसके जवाब पर ध्यान दें — बिना टिप्पणी किए।",
+      "materials": "एक कागज़ और पेंसिल प्रति बच्चा — या सिर्फ स्लेट पर भी हो सकता है",
+      "time_required": "10 मिनट"
+    },
+    "inclusion_strategy": {
+      "title": "समावेश रणनीति / Inclusion Strategy",
+      "strategy": "उस बच्चे को किसी भरोसेमंद सहपाठी के साथ जोड़ी (pair) में बैठाएँ — जो उसका दोस्त रहा हो। TaRL पद्धति के अनुसार, peer-learning से बच्चे सुरक्षित महसूस करते हैं और धीरे-धीरे खुलते हैं। अगर घर में कोई बड़ी समस्या लगे तो विद्यालय के SMC या अभिभावक से एक बार मिलना उपयोगी हो सकता है।"
+    },
+    "reflection_prompt": {
+      "title": "चिंतन / Reflection",
+      "question": "क्या यह बदलाव किसी खास घटना के बाद आया — जैसे परीक्षा, घर की कोई बात, या कक्षा में कुछ हुआ? उस समय को याद करने से शायद कारण स्पष्ट हो।"
+    },
+    "source_citation": {
+      "title": "संदर्भ / Source",
+      "reference": "NEP 2020, Section 4.6 — Holistic Development and Well-being of Students; NISHTHA Module — Socio-Emotional Learning (SEL) in Classrooms; TaRL Methodology — Safe and Inclusive Learning Environment"
+    },
+    "response_time_ms": 21657,
+    "from_cache": false
+  }
+}

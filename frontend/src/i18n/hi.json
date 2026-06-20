@@ -1,0 +1,128 @@
+{
+  "app": {
+    "name": "साथी शिक्षक",
+    "tagline": "हर सवाल का जवाब। रोज़। आपकी भाषा में।"
+  },
+  "language_select": {
+    "greeting": "नमस्ते! 🙏",
+    "welcome": "साथी शिक्षक में आपका स्वागत है",
+    "choose": "अपनी भाषा चुनें",
+    "change_later": "भाषा आप बाद में भी बदल सकते हैं"
+  },
+  "auth": {
+    "title": "अपना नंबर डालें",
+    "subtitle": "हम OTP से आपकी पहचान करेंगे",
+    "phone_label": "मोबाइल नंबर",
+    "phone_placeholder": "+91 XXXXX XXXXX",
+    "send_otp": "OTP भेजें",
+    "sending": "भेजा जा रहा है...",
+    "otp_label": "OTP डालें",
+    "otp_hint": "आपके नंबर पर 6 अंक का कोड भेजा गया",
+    "verify": "जाँचें",
+    "verifying": "जाँचा जा रहा है...",
+    "resend": "OTP फिर से भेजें",
+    "resend_in": "{{seconds}} सेकंड में फिर भेजें",
+    "error_invalid": "OTP गलत है। फिर से डालें।",
+    "error_expired": "OTP की अवधि समाप्त हो गई। नया मंगाएं।",
+    "error_many": "बहुत बार कोशिश हुई। थोड़ी देर बाद आज़माएं।",
+    "error_invalid_phone": "सही मोबाइल नंबर डालें"
+  },
+  "onboarding": {
+    "step1_title": "आप कौन सी कक्षाएँ पढ़ाते हैं?",
+    "step1_subtitle": "एक या अधिक चुनें",
+    "step2_title": "आप कौन से विषय पढ़ाते हैं?",
+    "step2_subtitle": "एक या अधिक चुनें",
+    "grade_prefix": "कक्षा",
+    "next": "आगे बढ़ें →",
+    "finish": "शुरू करते हैं! 🚀",
+    "select_at_least_one": "कम से कम एक तो चुनें!",
+    "subjects": {
+      "hindi": "🔤 हिंदी",
+      "mathematics": "🔢 गणित",
+      "evs": "🌿 पर्यावरण",
+      "science": "🔬 विज्ञान",
+      "english": "🌐 अंग्रेज़ी",
+      "general": "📚 सामान्य"
+    },
+    "welcome_message": "आपकी जानकारी सुरक्षित है। चलिए शुरू करते हैं!"
+  },
+  "home": {
+    "greeting_morning": "सुप्रभात",
+    "greeting_afternoon": "नमस्ते",
+    "greeting_evening": "शुभ संध्या",
+    "teacher_suffix": "जी",
+    "challenge_prompt": "आज की चुनौती क्या है?",
+    "mic_idle": "🎤 माइक दबाएं और बोलें",
+    "mic_listening": "🔴 सुन रहे हैं...",
+    "mic_processing": "💭 समझ रहे हैं...",
+    "text_placeholder": "या यहाँ लिखें...",
+    "grade_label": "कक्षा",
+    "subject_label": "विषय",
+    "ask_button": "सलाह लें →",
+    "asking": "पूछा जा रहा है...",
+    "recent_title": "पिछली बातचीत",
+    "no_recent": "अभी तक कोई सवाल नहीं",
+    "history_link": "सभी देखें →",
+    "offline_badge": "📴 ऑफलाइन",
+    "offline_msg": "इंटरनेट नहीं है। पहले से तैयार जवाब दिखाए जाएंगे।",
+    "rate_limit": "⏰ आज की 30 बातचीत पूरी हो गईं। कल सुबह फिर मिलेंगे!",
+    "subjects": {
+      "hindi": "हिंदी",
+      "mathematics": "गणित",
+      "evs": "पर्यावरण",
+      "science": "विज्ञान",
+      "english": "अंग्रेज़ी",
+      "general": "सामान्य"
+    }
+  },
+  "response": {
+    "header": "📋 आज के लिए सलाह",
+    "from_cache_badge": "⚡ तुरंत जवाब",
+    "blocks": {
+      "immediate": "⚡ तत्काल सलाह",
+      "activity": "🎯 कक्षा गतिविधि",
+      "inclusion": "🤝 समावेश रणनीति",
+      "reflection": "💭 चिंतन प्रश्न",
+      "source": "📖 संदर्भ"
+    },
+    "materials_label": "सामग्री",
+    "time_label": "समय",
+    "expand_hint": "▼ विस्तार के लिए दबाएं",
+    "collapse_hint": "▲ बंद करें",
+    "feedback_question": "क्या यह सलाह मददगार थी?",
+    "feedback_yes": "👍 हाँ, बहुत मददगार!",
+    "feedback_no": "👎 और बेहतर चाहिए",
+    "feedback_thanks": "🙏 आपकी राय के लिए धन्यवाद!",
+    "ask_again": "← कोई और पूछें",
+    "response_time": "जवाब आया {{ms}}ms में"
+  },
+  "history": {
+    "title": "मेरी बातचीत",
+    "empty_title": "अभी तक कोई सवाल नहीं",
+    "empty_sub": "घर पर 'सलाह लें' दबाकर शुरू करें",
+    "grade_prefix": "कक्षा",
+    "helpful": "✅ मददगार",
+    "not_helpful": "💬 सुझाव दिया",
+    "no_feedback": "",
+    "back": "← वापस"
+  },
+  "errors": {
+    "network": "📶 इंटरनेट से जुड़ने में समस्या है।",
+    "offline_answer": "ऑफलाइन जवाब दिखाया जा रहा है।",
+    "server": "🔧 अभी सेवा थोड़ी व्यस्त है। एक मिनट बाद कोशिश करें।",
+    "empty_query": "🎤 कुछ पूछना तो पड़ेगा! माइक दबाएं या लिखें।",
+    "voice_unsupported": "🔇 यह ब्राउज़र आवाज़ नहीं पहचानता। Chrome में खोलें।",
+    "voice_denied": "🎤 माइक की अनुमति चाहिए। Settings → Chrome → Microphone चालू करें।",
+    "voice_no_speech": "🤔 कुछ सुनाई नहीं दिया। फिर से बोलें।",
+    "generic": "😅 कुछ गड़बड़ हो गई। फिर से कोशिश करें।"
+  },
+  "common": {
+    "loading": "लोड हो रहा है...",
+    "thinking": "✨ सोच रहे हैं...",
+    "retry": "फिर कोशिश करें",
+    "close": "✕",
+    "back": "← वापस",
+    "history": "📋 इतिहास",
+    "logout": "बाहर जाएं"
+  }
+}

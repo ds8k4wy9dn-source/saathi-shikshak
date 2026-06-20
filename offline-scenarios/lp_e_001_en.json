@@ -1,0 +1,41 @@
+{
+  "id": "lp_e_001_en",
+  "category": "lp_evs",
+  "grade_band": "Preparatory (3-5)",
+  "subject": "evs",
+  "language": "en",
+  "title": "Teaching the water cycle so Class 4 students genuinely understand it",
+  "query_text": "Teaching the water cycle so Class 4 students genuinely understand it",
+  "response": {
+    "session_id": "0fc1c956-8a24-4957-aa6c-316ca0083552",
+    "language": "en",
+    "immediate_steps": {
+      "title": "Immediate Action",
+      "steps": [
+        "Start by asking children: 'Where does rain come from? Where does it go after it falls?' — let them share freely, no wrong answers",
+        "Draw a simple water cycle diagram on the blackboard using only arrows, sun, cloud, rain, river, and ground — label in both English and local language",
+        "Connect to their real life: puddles disappearing after rain, wet clothes drying, morning dew on leaves — these ARE the water cycle"
+      ]
+    },
+    "classroom_activity": {
+      "title": "Classroom Activity — 'Water's Journey' Story Circle",
+      "activity": "Tell students: 'You are a water drop. Where do you travel?' Each child adds ONE sentence to build a class story — from river → sun heats you → you rise as vapour → become cloud → fall as rain → back to river. Write key words on the board as the story grows. This story-telling approach builds genuine conceptual understanding, not memorisation.",
+      "materials": "Blackboard, chalk only",
+      "time_required": "15 minutes"
+    },
+    "inclusion_strategy": {
+      "title": "Inclusion Strategy",
+      "strategy": "For students who struggle with abstract concepts, pair them with a peer and ask them to act out one stage physically — arms wide = evaporation rising, hands together overhead = cloud forming, fingers wiggling downward = rain falling. Movement anchors the concept in memory."
+    },
+    "reflection_prompt": {
+      "title": "Reflection",
+      "question": "After the activity, could your students explain the water cycle using their own words and local examples — without looking at the board?"
+    },
+    "source_citation": {
+      "title": "Source",
+      "reference": "NEP 2020, Section 4.6 — Experiential Learning through story-telling-based pedagogy and hands-on learning; NCERT EVS Pedagogical Guidelines — Class 4, 'Looking Around' (connecting concepts to children's immediate environment)"
+    },
+    "response_time_ms": 12340,
+    "from_cache": false
+  }
+}

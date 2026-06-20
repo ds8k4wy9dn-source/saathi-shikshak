@@ -1,0 +1,41 @@
+{
+  "id": "lp_h_001_en",
+  "category": "lesson_planning_hindi",
+  "grade_band": "Preparatory (3-5)",
+  "subject": "hindi",
+  "language": "en",
+  "title": "How to teach a Hindi poem so students understand and enjoy it",
+  "query_text": "How to teach a Hindi poem so students understand and enjoy it",
+  "response": {
+    "session_id": "a7edf60a-f799-46fd-9836-55641d9630d7",
+    "language": "en",
+    "immediate_steps": {
+      "title": "Immediate Action",
+      "steps": [
+        "Read the poem aloud yourself first — with rhythm, expression, and feeling. Let students just listen and enjoy before any explanation.",
+        "Ask 2-3 simple questions: 'What picture did you see in your mind?' or 'Which line did you like?' — this builds personal connection before comprehension.",
+        "Write 2-3 difficult words on the blackboard and explain them using local examples or gestures, not dictionary definitions."
+      ]
+    },
+    "classroom_activity": {
+      "title": "Classroom Activity — Echo & Act",
+      "activity": "Read one line of the poem aloud with expression. Students repeat it back (echo reading) with the same tone. Then ask small groups of 4-5 students to act out the meaning of that line using only gestures — no words. Other groups guess what the line means. Rotate through 3-4 key lines. End by having the whole class read the poem together as a chorus.",
+      "materials": "Blackboard, chalk, the textbook — nothing else needed",
+      "time_required": "15 minutes"
+    },
+    "inclusion_strategy": {
+      "title": "Inclusion Strategy",
+      "strategy": "For students who struggle with reading, pair them with a stronger reader during echo reading. Let them participate fully in the acting part — movement-based learning gives every child a way to show understanding without needing to read aloud."
+    },
+    "reflection_prompt": {
+      "title": "Reflection",
+      "question": "After the activity, which students seemed most engaged — and which ones were still hesitant? What one small change might help those quieter students feel safer to participate next time?"
+    },
+    "source_citation": {
+      "title": "Source",
+      "reference": "NEP 2020, Section 4.21 — experiential language learning through storytelling, poetry, theatre, and music; NCERT Pedagogical Guidelines for Hindi (Primary Grades) — emphasis on oral reading, rhythm, and meaning-making before formal comprehension tasks."
+    },
+    "response_time_ms": 12237,
+    "from_cache": false
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "by_001_en",
+  "category": "beginning_of_year",
+  "grade_band": "Preparatory (3-5)",
+  "subject": "general",
+  "language": "en",
+  "title": "How to assess new Class 3 students' level on the very first day",
+  "query_text": "How to assess new Class 3 students' level on the very first day",
+  "response": {
+    "session_id": "7db6a8c1-bca4-4808-b1a4-ae1f7e506bba",
+    "language": "en",
+    "immediate_steps": {
+      "title": "Immediate Action",
+      "steps": [
+        "Greet students warmly and create a relaxed, non-threatening atmosphere — make clear this is not a test, just a friendly conversation",
+        "Use a simple 3-level oral check: ask students to tell you their name, count to 10, and read 2–3 words from the blackboard",
+        "Quietly note which students respond confidently, which hesitate, and which stay silent — this gives you three rough groups without any formal paperwork"
+      ]
+    },
+    "classroom_activity": {
+      "title": "Classroom Activity — 'Picture Talk' Baseline",
+      "activity": "Draw a simple scene on the blackboard (a house, tree, sun, child). Ask students to: (1) name what they see, (2) say one sentence about the picture, (3) write one word they see. Observe who can do all three, who can do one or two, and who needs support. This simultaneously checks listening, speaking, and early writing — the three foundational skills.",
+      "materials": "Blackboard, chalk, students' notebooks or loose paper",
+      "time_required": "15 minutes"
+    },
+    "inclusion_strategy": {
+      "title": "Inclusion Strategy",
+      "strategy": "For students who stay silent or cannot write, sit beside them briefly and ask them to point to objects in the picture or repeat a word after you. This gives you a baseline for pre-literacy learners without making them feel singled out in front of peers."
+    },
+    "reflection_prompt": {
+      "title": "Reflection",
+      "question": "After today, could you identify at least two students who may need foundational support — and two who are ready for grade-level work?"
+    },
+    "source_citation": {
+      "title": "Source",
+      "reference": "NIPUN Bharat Framework (2021) — Foundational Literacy & Numeracy baseline assessment principles; NCERT Class 3 Santoor — self-assessment and oral language guidelines (pp. 67, 128)"
+    },
+    "response_time_ms": 12340,
+    "from_cache": false
+  }
+}

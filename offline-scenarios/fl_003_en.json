@@ -1,0 +1,41 @@
+{
+  "id": "fl_003_en",
+  "category": "foundational_literacy",
+  "grade_band": "Preparatory (3-5)",
+  "subject": "hindi",
+  "language": "en",
+  "title": "Class 3 students can't blend syllables to form words",
+  "query_text": "Class 3 students can't blend syllables to form words",
+  "response": {
+    "session_id": "97920af0-5970-439b-a96c-17fd9c8711a8",
+    "language": "en",
+    "immediate_steps": {
+      "title": "Immediate Action",
+      "steps": [
+        "Group students by current level — those who know individual sounds vs. those still learning them — so you can target support better",
+        "Use clapping rhythm: clap each syllable separately, then clap once while saying the full word — this connects sound to meaning physically",
+        "Pair a stronger student with a struggling one for 5 minutes of daily syllable-blending practice using words from their own environment (माँ, पानी, किताब)"
+      ]
+    },
+    "classroom_activity": {
+      "title": "Classroom Activity — 'जोड़ो और बोलो' (Join and Say)",
+      "activity": "Write two syllables on the board separately — e.g., 'का' and 'म' — with a gap between them. Ask students to clap 'का'... 'म'... then slide their hands together while saying 'काम'. Repeat with 5–6 familiar words. Then call one student to the board to push the syllable cards together physically while the class blends aloud together. Use words from their daily life — घर, पानी, माँ, बाजार.",
+      "materials": "Chalk and blackboard only; optional — small paper cards with syllables written on them",
+      "time_required": "15 minutes"
+    },
+    "inclusion_strategy": {
+      "title": "Inclusion Strategy",
+      "strategy": "For students who cannot yet blend, start with only two-syllable words with open syllables (like म+आ = माँ). Let them trace the syllables with their finger on the desk while saying each sound — the physical movement supports auditory processing for struggling learners."
+    },
+    "reflection_prompt": {
+      "title": "Reflection",
+      "question": "After trying this activity, which students could blend independently, and which still needed the physical clapping support — what does that tell you about their next step?"
+    },
+    "source_citation": {
+      "title": "Source",
+      "reference": "TaRL (Teaching at the Right Level) Methodology — Pratham; NIPUN Bharat Framework — Foundational Literacy, Oral Language & Decoding Competencies (Ministry of Education, 2021)"
+    },
+    "response_time_ms": 14490,
+    "from_cache": false
+  }
+}

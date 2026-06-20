@@ -1,0 +1,41 @@
+{
+  "id": "cb_006_hi",
+  "category": "classroom_behaviour",
+  "grade_band": "Preparatory (3-5)",
+  "subject": "general",
+  "language": "hi",
+  "title": "47 बच्चे अकेले manage करना — chaos हो जाता है",
+  "query_text": "47 बच्चे अकेले manage करना — chaos हो जाता है",
+  "response": {
+    "session_id": "afc09bb9-8c1d-464d-a522-ce68881c3970",
+    "language": "hi",
+    "immediate_steps": {
+      "title": "तत्काल सलाह",
+      "steps": [
+        "कक्षा को 5-6 बच्चों के स्थायी समूहों में बाँट दें — हर समूह का एक 'समूह नेता' बच्चा हो जो छोटे-मोटे सवाल पहले खुद समूह में सुलझाए",
+        "एक सरल 'कक्षा संकेत' तय करें — जैसे हाथ ऊपर उठाना मतलब 'शांत हो जाओ' — पहले दिन 2 मिनट अभ्यास कराएँ, फिर रोज़ उपयोग करें",
+        "हर गतिविधि शुरू करने से पहले 30 सेकंड में स्पष्ट निर्देश दें — 'क्या करना है, कितने समय में, कैसे बैठना है' — इससे बीच में रुकना कम होगा"
+      ]
+    },
+    "classroom_activity": {
+      "title": "कक्षा गतिविधि — समूह जिम्मेदारी",
+      "activity": "कक्षा को 8 समूहों में बाँटें (5-6 बच्चे प्रति समूह)। हर समूह को एक छोटा काम दें — जैसे कोई शब्द बोर्ड पर लिखना, कोई गिनती करना। समूह नेता अपने समूह का काम पूरा करवाए और आपको बताए। इससे आप एक साथ 8 जगह नहीं, सिर्फ 8 नेताओं से बात करते हैं।",
+      "materials": "चॉक, ब्लैकबोर्ड, स्लेट या कॉपी",
+      "time_required": "15 मिनट"
+    },
+    "inclusion_strategy": {
+      "title": "समावेश रणनीति",
+      "strategy": "जो बच्चे कमज़ोर हैं उन्हें समूह नेता के बगल में बैठाएँ — नेता उन्हें समझाएगा, इससे नेता की समझ भी पक्की होगी और कमज़ोर बच्चे को बिना शर्म के मदद मिलेगी। यह TaRL की 'peer learning' पद्धति है।"
+    },
+    "reflection_prompt": {
+      "title": "चिंतन",
+      "question": "आज जब समूह नेता काम कर रहे थे — किस समूह ने सबसे अच्छा साथ दिया और क्यों? उस समूह से बाकी क्या सीख सकते हैं?"
+    },
+    "source_citation": {
+      "title": "संदर्भ",
+      "reference": "TaRL (Teaching at the Right Level) — Pratham/J-PAL India: Peer grouping and group leader methodology; NEP 2020, Section 5.4 — collaborative and activity-based learning in foundational years"
+    },
+    "response_time_ms": 20326,
+    "from_cache": false
+  }
+}

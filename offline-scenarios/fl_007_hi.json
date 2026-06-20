@@ -1,0 +1,41 @@
+{
+  "id": "fl_007_hi",
+  "category": "foundational_literacy",
+  "grade_band": "Foundational (1-2)",
+  "subject": "hindi",
+  "language": "hi",
+  "title": "Class 2 का एक भी बच्चा fluently नहीं पढ़ पाता",
+  "query_text": "Class 2 का एक भी बच्चा fluently नहीं पढ़ पाता",
+  "response": {
+    "session_id": "56fe355a-9766-481b-b6d5-22431a65c1be",
+    "language": "hi",
+    "immediate_steps": {
+      "title": "तत्काल सलाह",
+      "steps": [
+        "पहले सभी 40 बच्चों को 3 समूहों में बाँटें — जो अक्षर पहचानते हैं, जो शब्द जोड़ते हैं, जो वाक्य पढ़ने की कोशिश करते हैं",
+        "हर दिन 10 मिनट सिर्फ 'ध्वनि खेल' करें — एक अक्षर बोलें, बच्चे उस अक्षर से शुरू होने वाली चीज़ें बताएँ",
+        "जो बच्चे सबसे कमज़ोर हैं, उन्हें आगे की पंक्ति में बैठाएँ ताकि आप उन पर थोड़ा अतिरिक्त ध्यान दे सकें"
+      ]
+    },
+    "classroom_activity": {
+      "title": "कक्षा गतिविधि — 'शब्द पहचानो' खेल",
+      "activity": "ब्लैकबोर्ड पर 5 सरल शब्द लिखें जैसे — माँ, घर, पानी, आम, बाल। एक बच्चे को बुलाएँ, शब्द की तरफ इशारा करें और पूरी कक्षा एक साथ ज़ोर से बोले। फिर उसी शब्द को बच्चे अपनी उँगली से हवा में लिखें। अगले दिन वही शब्द बिना बोर्ड पर लिखे पूछें — देखें कितने याद रहे।",
+      "materials": "सिर्फ ब्लैकबोर्ड और चॉक",
+      "time_required": "15 मिनट"
+    },
+    "inclusion_strategy": {
+      "title": "समावेश रणनीति",
+      "strategy": "जो बच्चे अक्षर भी नहीं पहचानते, उनके लिए 'जोड़ी' बनाएँ — थोड़ा बेहतर पढ़ने वाले बच्चे को उनके साथ बैठाएँ। यह TaRL पद्धति का 'peer learning' तरीका है जो कमज़ोर बच्चों में आत्मविश्वास बढ़ाता है।"
+    },
+    "reflection_prompt": {
+      "title": "चिंतन",
+      "question": "एक हफ्ते बाद देखें — किस समूह के बच्चों में सबसे ज़्यादा बदलाव आया और क्यों?"
+    },
+    "source_citation": {
+      "title": "संदर्भ",
+      "reference": "TaRL (Teaching at the Right Level) — Pratham/J-PAL India: स्तर-आधारित समूह बनाना; NCERT Primary Teacher Manual — mixed-ability classroom strategies; NIPUN Bharat Framework — Foundational Literacy goals for Grade 2"
+    },
+    "response_time_ms": 19614,
+    "from_cache": false
+  }
+}

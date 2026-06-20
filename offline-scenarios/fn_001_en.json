@@ -1,0 +1,41 @@
+{
+  "id": "fn_001_en",
+  "category": "foundational_numeracy",
+  "grade_band": "Preparatory (3-5)",
+  "subject": "mathematics",
+  "language": "en",
+  "title": "Class 4 students still count on their fingers for addition",
+  "query_text": "Class 4 students still count on their fingers for addition",
+  "response": {
+    "session_id": "ef8da905-9777-4634-9042-48ab5125e0c7",
+    "language": "en",
+    "immediate_steps": {
+      "title": "Immediate Action",
+      "steps": [
+        "Group students into pairs — one who counts on fingers, one who doesn't — for peer learning during daily practice",
+        "Introduce 'number anchor' cards: write 5 and 10 on the board as mental anchors, and practice making every number from these two anchors aloud as a class",
+        "Replace finger-counting with a daily 5-minute oral number-bond chant: '6 and 4 make 10, 7 and 3 make 10' — repetition builds automaticity"
+      ]
+    },
+    "classroom_activity": {
+      "title": "Classroom Activity — Number Bond Pebble Game",
+      "activity": "Give each pair of students 10 small pebbles or seeds. One student hides some in one fist, rest in the other. Partner guesses the split. Example: 'I have 10 total, you see 6 in my open hand — how many are hidden?' Students say the answer aloud WITHOUT counting one by one. Rotate 5 rounds. This builds mental addition by anchoring to 10.",
+      "materials": "10 pebbles, seeds, or small stones per pair — collected from schoolyard",
+      "time_required": "15 minutes"
+    },
+    "inclusion_strategy": {
+      "title": "Inclusion Strategy",
+      "strategy": "For students who still need physical support, allow a drawn 10-frame on their slate (two rows of 5 boxes). They fill dots instead of using fingers — this transitions them from finger-counting to a structured visual tool, gradually building mental imagery without removing support abruptly."
+    },
+    "reflection_prompt": {
+      "title": "Reflection",
+      "question": "After trying the pebble game, which students moved from counting-on to recalling instantly — and what did those students do differently during the activity?"
+    },
+    "source_citation": {
+      "title": "Source",
+      "reference": "NIPUN Bharat Framework — Foundational Numeracy Goals, Number Operations & Mental Math strategies; NEP 2020 Section 2.1–2.2 — Foundational Literacy and Numeracy as urgent national priority; TaRL methodology (Pratham) — grouping by learning level for numeracy"
+    },
+    "response_time_ms": 14491,
+    "from_cache": false
+  }
+}

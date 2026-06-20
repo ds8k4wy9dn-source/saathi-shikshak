@@ -1,0 +1,41 @@
+{
+  "id": "fl_003_hi",
+  "category": "foundational_literacy",
+  "grade_band": "Preparatory (3-5)",
+  "subject": "hindi",
+  "language": "hi",
+  "title": "Class 3 के बच्चे simple शब्द नहीं जोड़ पाते — syllable blending नहीं होती",
+  "query_text": "Class 3 के बच्चे simple शब्द नहीं जोड़ पाते — syllable blending नहीं होती",
+  "response": {
+    "session_id": "d3088a8a-616c-4568-af56-f90a2e7a66f1",
+    "language": "hi",
+    "immediate_steps": {
+      "title": "तत्काल सलाह",
+      "steps": [
+        "पहले पता करें कि कितने बच्चे अटक रहे हैं — उन्हें अलग छोटे समूह में बैठाएं",
+        "syllable blending से पहले ताली-विधि से अक्षर पहचान पक्की करें — जैसे 'क' + 'ल' = 'कल'",
+        "एक बार में सिर्फ एक मात्रा-रहित शब्द लें, धीरे-धीरे आगे बढ़ें"
+      ]
+    },
+    "classroom_activity": {
+      "title": "ताली-जोड़ो गतिविधि",
+      "activity": "श्यामपट्ट पर 'क' और 'ल' अलग-अलग लिखें। पूरी कक्षा एक साथ 'क' बोलते हुए एक ताली बजाए, फिर 'ल' बोलते हुए दूसरी ताली — फिर दोनों को मिलाकर 'कल' बोलें बिना ताली के। इसी तरह 'म+न=मन', 'घ+र=घर' करें। फिर दो बच्चों को आगे बुलाएं — एक अक्षर बोले, दूसरा अगला, तीसरा बच्चा जोड़कर बोले।",
+      "materials": "श्यामपट्ट, चॉक — कुछ और नहीं चाहिए",
+      "time_required": "15 मिनट"
+    },
+    "inclusion_strategy": {
+      "title": "समावेश रणनीति",
+      "strategy": "जो बच्चे सबसे ज़्यादा अटक रहे हैं, उन्हें पहले सिर्फ दो अक्षर वाले बिना मात्रा के शब्द दें (जैसे कल, घर, मन)। उनके साथ एक 'जोड़ीदार' (peer buddy) बैठाएं जो थोड़ा आगे है — TaRL की grouping विधि के अनुसार।"
+    },
+    "reflection_prompt": {
+      "title": "चिंतन",
+      "question": "जब बच्चे ताली-विधि से शब्द जोड़ पाए, तो उनके चेहरे पर क्या भाव था — और उस पल से आप अगली गतिविधि के लिए क्या सीख सकते हैं?"
+    },
+    "source_citation": {
+      "title": "संदर्भ",
+      "reference": "NIPUN Bharat Framework — Foundational Literacy: Phonological Awareness & Decoding Strategies; TaRL (Teaching at the Right Level) Methodology — Pratham/J-PAL India: Grouped instruction based on learning level"
+    },
+    "response_time_ms": 17493,
+    "from_cache": false
+  }
+}

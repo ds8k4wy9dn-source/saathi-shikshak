@@ -1,0 +1,41 @@
+{
+  "id": "ml_001_en",
+  "category": "multilingual",
+  "grade_band": "Foundational (1-2)",
+  "subject": "hindi",
+  "language": "en",
+  "title": "Half the students speak Bhojpuri at home in a Hindi-medium school",
+  "query_text": "Half the students speak Bhojpuri at home in a Hindi-medium school",
+  "response": {
+    "session_id": "64dac917-cd8c-43cf-880d-45c4059bb1fe",
+    "language": "en",
+    "immediate_steps": {
+      "title": "Immediate Action",
+      "steps": [
+        "Welcome Bhojpuri words in class — when a child says something in Bhojpuri, smile and say 'हाँ, हमारे घर में भी ऐसे बोलते हैं' — this builds trust instantly",
+        "Start each new Hindi word by first asking 'Bhojpuri mein isko kya kehte hain?' — then bridge to the Hindi word together as a class",
+        "Pair Bhojpuri-speaking students with Hindi-dominant students for oral activities — both learn from each other naturally"
+      ]
+    },
+    "classroom_activity": {
+      "title": "Classroom Activity — 'Do Bhasha, Ek Baat' (Two Languages, One Meaning)",
+      "activity": "Write a simple Hindi word on the blackboard (e.g., 'पानी'). Ask Bhojpuri-speaking children what they call it at home ('पनिया'). Write both side by side. Ask: 'Dono ka matlab ek hi hai?' Children nod and connect. Do this with 5 words — roti, ghar, maa, khana, neend. Children feel their home language is valued, and Hindi vocabulary gets anchored to something familiar.",
+      "materials": "Blackboard and chalk only",
+      "time_required": "15 minutes"
+    },
+    "inclusion_strategy": {
+      "title": "Inclusion Strategy",
+      "strategy": "For children struggling with Hindi reading, allow them to first narrate the story or answer in Bhojpuri orally — then help them find the Hindi words for what they just said. This bilingual bridge approach ensures comprehension is not blocked by language anxiety, keeping all learners participating actively."
+    },
+    "reflection_prompt": {
+      "title": "Reflection",
+      "question": "After trying the 'Do Bhasha' activity, which children seemed more confident to speak up — and did any surprise you?"
+    },
+    "source_citation": {
+      "title": "Source",
+      "reference": "NEP 2020, Section 4.12 — Multilingualism and home language use in early grades; NEP 2020, Section 4.11 — Bilingual teaching-learning approach where home language differs from medium of instruction"
+    },
+    "response_time_ms": 14393,
+    "from_cache": false
+  }
+}

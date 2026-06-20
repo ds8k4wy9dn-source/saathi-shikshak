@@ -1,0 +1,41 @@
+{
+  "id": "cb_005_en",
+  "category": "classroom_behaviour",
+  "grade_band": "Preparatory (3-5)",
+  "subject": "general",
+  "language": "en",
+  "title": "Shy students who never participate in class activities",
+  "query_text": "Shy students who never participate in class activities",
+  "response": {
+    "session_id": "cafe9ae4-a617-4c34-8c35-e7b676426006",
+    "language": "en",
+    "immediate_steps": {
+      "title": "Immediate Action",
+      "steps": [
+        "Start with pair-sharing before whole-class sharing — shy students feel safer speaking to one peer first",
+        "Give a 'thinking time' of 30 seconds before asking anyone to respond — this reduces anxiety for quieter children",
+        "Assign shy students a specific small role (timekeeper, materials holder, reporter) so participation feels structured, not exposed"
+      ]
+    },
+    "classroom_activity": {
+      "title": "Classroom Activity — 'Whisper then Share'",
+      "activity": "Use the NCERT Class-4 EVS group activity format (situations in the locality). Divide class into groups of 4-5. Each student first writes or draws their idea on a slate/paper. Then they whisper it to a partner. The partner — not the shy student — shares it with the group. Gradually, over weeks, the shy student begins sharing directly as confidence builds.",
+      "materials": "Slates, chalk, or any scrap paper — nothing extra needed",
+      "time_required": "15 minutes"
+    },
+    "inclusion_strategy": {
+      "title": "Inclusion Strategy",
+      "strategy": "Give shy students a 'preview' — quietly tell them the next day's discussion topic a day before. When they come prepared, they naturally feel confident enough to speak. This works especially well during EVS group discussions like those in NCERT Class-4, Chapter activities."
+    },
+    "reflection_prompt": {
+      "title": "Reflection",
+      "question": "After trying pair-sharing for one week, did you notice any shy student initiate speaking — even once? What made that moment possible?"
+    },
+    "source_citation": {
+      "title": "Source",
+      "reference": "NEP 2020, Section 5.4 (inclusive, child-centred pedagogy); NCERT Class-4 EVS 'Our Wondrous World' — Activity 4 (group-based collaborative learning); TaRL methodology — grouping for peer confidence building"
+    },
+    "response_time_ms": 13980,
+    "from_cache": false
+  }
+}
