@@ -1,13 +1,21 @@
 import axios, { type AxiosInstance, type AxiosError } from 'axios'
 import type { AuthVerifyRequest, FeedbackRequest, QueryRequest, QueryResponse, SessionRecord, TeacherProfile } from './types'
 
-// HARDENED CONNECTION FIX: Accept both variable names AND inject the exact live HuggingFace production domain as the permanent fallback string
-const BASE_URL = import.meta.env.VITE_API_URL 
+// 1. Resolve raw URL strings from environment blocks or manual fallback definitions
+let rawBaseUrl = import.meta.env.VITE_API_URL 
   || import.meta.env.VITE_API_BASE_URL 
   || 'https://nishu78-saathishikshak-backend.hf.space'
 
+// 2. Strip away accidental trailing slashes cleanly
+rawBaseUrl = rawBaseUrl.replace(/\/+$/, '')
+
+// 3. DEFENSIVE FIX: Automatically detect and prevent duplicate /api/v1 stacking
+const FINAL_BASE_URL = rawBaseUrl.includes('/api/v1') 
+  ? rawBaseUrl 
+  : `${rawBaseUrl}/api/v1`
+
 export const axiosInstance: AxiosInstance = axios.create({
-  baseURL: `${BASE_URL}/api/v1`,
+  baseURL: FINAL_BASE_URL,
   timeout: 30_000,  // 30s — Claude can take up to 10s
   headers: { 'Content-Type': 'application/json' },
 })
