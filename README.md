@@ -1,5 +1,4 @@
 # SaathiShikshak (साथी शिक्षक)
-## Core Solution Sections — MVP, Architecture, Knowledge Base & Tech Stack
 
 ---
 
