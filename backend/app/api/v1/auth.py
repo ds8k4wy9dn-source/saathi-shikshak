@@ -1,5 +1,7 @@
 """POST /api/v1/auth/verify — Firebase Phone OTP verification."""
 import uuid
+import os
+import json
 
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy import select
@@ -13,20 +15,56 @@ from app.models.response import TeacherProfile
 router = APIRouter()
 
 
+# async def _verify_firebase_token(id_token: str, project_id: str) -> dict:
+#     """Verify Firebase ID token and return decoded claims."""
+#     try:
+#         import firebase_admin
+#         from firebase_admin import auth as fb_auth
+
+#         # THE NUCLEAR OVERRIDE: 
+#         # Bypass JSON credentials entirely. Initialize strictly using the Project ID.
+#         if not firebase_admin._apps:
+#             firebase_admin.initialize_app(options={
+#                 'projectId': project_id
+#             })
+
+#         return fb_auth.verify_id_token(id_token)
+#     except Exception as e:
+#         # UNMASK THE ERROR: Print it explicitly to the HuggingFace logs!
+#         print(f"🔥 FIREBASE AUTH CRASH: {str(e)}")
+#         raise HTTPException(
+#             status_code=status.HTTP_401_UNAUTHORIZED,
+#             detail=f"Invalid Firebase token: {e}",
+#         )
+
 async def _verify_firebase_token(id_token: str, project_id: str) -> dict:
-    """Verify Firebase ID token and return decoded claims."""
+    """Verify Firebase ID token using a safely parsed Service Account JSON."""
     try:
         import firebase_admin
         from firebase_admin import auth as fb_auth
+        from firebase_admin import credentials
 
         if not firebase_admin._apps:
-            firebase_admin.initialize_app()
+            # 1. Pull the raw JSON string from HuggingFace Secrets
+            secret_json = os.environ.get("FIREBASE_SERVICE_ACCOUNT")
+            
+            if not secret_json:
+                raise ValueError("FIREBASE_SERVICE_ACCOUNT secret is missing in HuggingFace")
+
+            # 2. Parse the string into a Python dictionary safely
+            cert_dict = json.loads(secret_json)
+            
+            # 3. Initialize Firebase with the dictionary
+            cred = credentials.Certificate(cert_dict)
+            firebase_admin.initialize_app(cred)
 
         return fb_auth.verify_id_token(id_token)
+    
     except Exception as e:
+        print(f"🔥 FIREBASE AUTH CRASH: {str(e)}")
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
-            detail=f"Invalid Firebase token: {e}",
+            detail=f"Invalid Firebase token or server config: {e}",
         )
 
 

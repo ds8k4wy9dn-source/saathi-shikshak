@@ -1,23 +1,22 @@
-# Use the exact Python version specified in your tech stack
 FROM python:3.13.13-slim
 
-# Install UV securely
+# Install system build dependencies required for compiling ML wheels
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    gcc \
+    g++ \
+    && rm -rf /var/lib/apt/lists/*
+
 COPY --from=ghcr.io/astral-sh/uv:0.11.18 /uv /uvx /bin/
 
-# Set the working directory
 WORKDIR /app
 
-# Copy dependency files first for Docker caching
 COPY pyproject.toml uv.lock ./
-
-# Install dependencies using UV (fast, locked versions)
 RUN uv sync --frozen --no-cache
 
-# Copy the rest of the codebase
 COPY . .
 
-# HuggingFace Spaces strictly requires exposing port 7860
 EXPOSE 7860
 
-# Run uvicorn using UV, forcing host 0.0.0.0 and port 7860 without touching main.py
-CMD ["uv", "run", "uvicorn", "main:app", "--host", "0.0.0.0", "--port", "7860"]
+# Redirect Uvicorn to find the app instance inside the app/ subfolder cleanly
+CMD ["uv", "run", "uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "7860"]
