@@ -1,26 +1,23 @@
-# Use official Python 3.13 image
-FROM python:3.13-slim
+# Use the exact Python version specified in your tech stack
+FROM python:3.13.13-slim
 
-# Set working directory
+# Install UV securely
+COPY --from=ghcr.io/astral-sh/uv:0.11.18 /uv /uvx /bin/
+
+# Set the working directory
 WORKDIR /app
 
-# Install system dependencies required for ChromaDB and ML models
-RUN apt-get update && apt-get install -y build-essential
-
-# Install uv (The exact package manager you used locally)
-RUN pip install uv
-
-# Copy your dependency files
+# Copy dependency files first for Docker caching
 COPY pyproject.toml uv.lock ./
 
-# Install dependencies using uv
-RUN uv sync --frozen
+# Install dependencies using UV (fast, locked versions)
+RUN uv sync --frozen --no-cache
 
-# Copy the rest of your application code
+# Copy the rest of the codebase
 COPY . .
 
-# Expose the FastAPI port
+# HuggingFace Spaces strictly requires exposing port 7860
 EXPOSE 7860
 
-# Command to run the application (Hugging Face expects port 7860)
-CMD ["uv", "run", "uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "7860"]
+# Run uvicorn using UV, forcing host 0.0.0.0 and port 7860 without touching main.py
+CMD ["uv", "run", "uvicorn", "main:app", "--host", "0.0.0.0", "--port", "7860"]
