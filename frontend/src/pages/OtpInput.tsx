@@ -58,15 +58,26 @@ export default function OtpInput() {
       setCountdown(30)
       showToast(t('auth.otp_hint'), 'success')
     } catch (err: unknown) {
+    // 1. Log the true error to the browser console so we can actually see it
+        console.error("🔥 True Firebase Error:", err); 
+    
       const code = (err as { code?: string }).code
-      const errMsg = code === 'auth/too-many-requests'
-        ? t('auth.error_many')
-        : t('auth.error_invalid_phone')
-      showToast(errMsg, 'error')
-    } finally {
-      setLoading(false)
+    
+    // 2. Route the specific error codes properly
+      let errMsg = t('auth.error_invalid_phone')
+      if (code === 'auth/too-many-requests') {
+        errMsg = t('auth.error_many')
+      } else if (code === 'auth/unauthorized-domain') {
+        errMsg = "Domain not authorized in Firebase. Check console settings."
+      } else if (code === 'auth/invalid-api-key') {
+        errMsg = "Firebase API Key is missing or invalid in Vercel."
     }
+    
+    showToast(errMsg, 'error')
+  } finally {
+    setLoading(false)
   }
+}
 
   const handleVerifyOtp = async () => {
     if (!confirmationRef.current) return
