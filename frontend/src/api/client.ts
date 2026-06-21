@@ -1,7 +1,10 @@
 import axios, { type AxiosInstance, type AxiosError } from 'axios'
 import type { AuthVerifyRequest, FeedbackRequest, QueryRequest, QueryResponse, SessionRecord, TeacherProfile } from './types'
 
-const BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000'
+// HARDENED CONNECTION FIX: Accept both variable names AND inject the exact live HuggingFace production domain as the permanent fallback string
+const BASE_URL = import.meta.env.VITE_API_URL 
+  || import.meta.env.VITE_API_BASE_URL 
+  || 'https://nishu78-saathishikshak-backend.hf.space'
 
 export const axiosInstance: AxiosInstance = axios.create({
   baseURL: `${BASE_URL}/api/v1`,
